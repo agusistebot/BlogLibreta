@@ -1,17 +1,17 @@
 {
-  "ultimaEjecucion": "2026-10-21T20:12:01.576Z",
+  "ultimaEjecucion": "2026-10-21T21:02:27.871Z",
   "modelo": "gemini-3.5-flash-lite + Tavily",
   "paisesActualizados": [
-    "BR",
-    "CL",
-    "ES",
-    "US",
-    "IT",
-    "FR",
-    "MX",
-    "PY",
-    "PE",
-    "PT"
+    "DE",
+    "GB",
+    "CO",
+    "CA",
+    "AU",
+    "BO",
+    "CR",
+    "JP",
+    "NZ",
+    "EC"
   ],
   "errores": [],
   "post": null,
@@ -28,10 +28,26 @@
       "MX",
       "PY",
       "PE",
-      "PT"
+      "PT",
+      "DE",
+      "GB",
+      "CO",
+      "CA",
+      "AU",
+      "BO",
+      "CR",
+      "JP",
+      "NZ",
+      "EC"
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-10-21T21:02:27.871Z",
+      "paises": 10,
+      "errores": 0,
+      "post": null
+    },
     {
       "fecha": "2026-10-21T20:12:01.576Z",
       "paises": 10,
