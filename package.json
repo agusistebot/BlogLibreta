@@ -1,0 +1,24 @@
+{
+  "name": "permisointernacionaldeconducir",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio estático de permisointernacionaldeconducir.com: convenciones de la ONU, requisitos por país, empresas que tramitan la libreta internacional y blog de road trips.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "update": "node scripts/update.mjs",
+    "seed": "node scripts/seed-paises.mjs",
+    "serve": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/overpass": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.1",
+    "gray-matter": "^4.0.3",
+    "marked": "^15.0.12"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

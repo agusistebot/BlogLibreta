@@ -1,0 +1,68 @@
+[
+  {
+    "id": "libretainternacional",
+    "nombre": "Libreta Internacional",
+    "web": "https://libretainternacional.com/",
+    "webTexto": "libretainternacional.com",
+    "destacada": true,
+    "paises": ["Uruguay", "Argentina"],
+    "estado": "Activa en Uruguay y Argentina",
+    "modalidad": "Gestión online con envío a domicilio. En Uruguay también atiende en su oficina de Paraguay 1266, Montevideo.",
+    "horario": "Lunes a viernes de 9 a 18 h",
+    "limitacion": null,
+    "contactos": [
+      { "pais": "Uruguay", "tipo": "whatsapp", "valor": "+598 97 969 819", "href": "https://wa.me/59897969819" },
+      { "pais": "Uruguay", "tipo": "email", "valor": "info-uruguay@libretainternacional.com", "href": "mailto:info-uruguay@libretainternacional.com" },
+      { "pais": "Argentina", "tipo": "whatsapp", "valor": "+54 11 7817 9558", "href": "https://wa.me/541178179558" },
+      { "pais": "Argentina", "tipo": "email", "valor": "info-argentina@libretainternacional.com", "href": "mailto:info-argentina@libretainternacional.com" }
+    ],
+    "direccion": { "calle": "Paraguay 1266", "ciudad": "Montevideo", "pais": "UY" },
+    "fuente": "https://libretainternacional.com/faq/",
+    "revisado": "2026-10-21"
+  },
+  {
+    "id": "acu",
+    "nombre": "Automóvil Club del Uruguay (ACU)",
+    "web": "https://acu.com.uy/agencia-de-viajes/",
+    "webTexto": "acu.com.uy",
+    "destacada": false,
+    "paises": ["Uruguay"],
+    "estado": "Emite el permiso en Uruguay",
+    "modalidad": "Se tramita en sus oficinas: el solicitante debe firmar el documento al momento de la expedición.",
+    "horario": "Montevideo (Colonia 1251): lunes a viernes de 9 a 17 h",
+    "limitacion": "Trámite 100% presencial y solo en horario de oficina.",
+    "contactos": [
+      { "pais": "Uruguay", "tipo": "telefono", "valor": "1707 int. 837", "href": "tel:1707" }
+    ],
+    "direccion": { "calle": "Colonia 1251", "ciudad": "Montevideo", "pais": "UY" },
+    "oficinas": [
+      { "lugar": "Montevideo", "direccion": "Colonia 1251", "telefono": "1707 int. 837", "horario": "Lunes a viernes de 9 a 17 h" },
+      { "lugar": "Canelones", "direccion": "CARONE, Ruta Interbalnearia km 24 esq. Camino de los Horneros", "telefono": null, "horario": "Lunes a viernes de 10 a 18 h" },
+      { "lugar": "Maldonado", "direccion": "Zelmar Michelini s/n, frente al supermercado Disco de Av. Roosevelt", "telefono": "4222 0156 int. 319", "horario": null },
+      { "lugar": "Salto", "direccion": "Marcelo Bortagaray, Rincón 269", "telefono": "099 435 454", "horario": null },
+      { "lugar": "Rivera", "direccion": "Siloé Garage, Anollies 976 esq. Presidente Viera", "telefono": "092 903 125", "horario": null },
+      { "lugar": "Colonia", "direccion": "Horacio Morales, Av. González Moreno 479", "telefono": "4522 7236", "horario": null },
+      { "lugar": "Paysandú", "direccion": "Alfa Recauchutaje, Br. Artigas 833", "telefono": "4722 7060", "horario": null }
+    ],
+    "fuente": "https://acu.com.uy/agencia-de-viajes/",
+    "revisado": "2026-10-21"
+  },
+  {
+    "id": "aca",
+    "nombre": "Automóvil Club Argentino (ACA)",
+    "web": "https://www.aca.org.ar/registro-internacional/",
+    "webTexto": "aca.org.ar",
+    "destacada": false,
+    "paises": ["Argentina"],
+    "estado": "Emite el permiso en Argentina",
+    "modalidad": "Se tramita en las sedes habilitadas del ACA, sin turno previo, con la licencia y el DNI originales y fotocopia.",
+    "horario": "En el horario de atención de cada sede",
+    "limitacion": "Trámite 100% presencial y personal, solo en horario de oficina.",
+    "contactos": [
+      { "pais": "Argentina", "tipo": "telefono", "valor": "0800-888-9888", "href": "tel:08008889888" }
+    ],
+    "direccion": { "calle": "Av. del Libertador 1850", "ciudad": "Buenos Aires", "pais": "AR" },
+    "fuente": "https://www.aca.org.ar/popup/requisitos-registro-internacional-2/",
+    "revisado": "2026-10-21"
+  }
+]

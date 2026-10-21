@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "ginebra-1949",
+    "orden": 1,
+    "corto": "Ginebra 1949",
+    "nombre": "Convención sobre la Circulación por Carretera (Ginebra, 1949)",
+    "metaTitulo": "Convención de Ginebra 1949 y el permiso internacional",
+    "descripcion": "Resumen de los artículos de la Convención de Ginebra de 1949 de la ONU sobre el Permiso Internacional de Conducir: artículo 24, anexos 8, 9 y 10 y validez de un año.",
+    "organismo": "Naciones Unidas",
+    "esONU": true,
+    "fecha": "1949-09-19",
+    "vigencia": "1952-03-26",
+    "partes": "102 Estados (marzo de 2025)",
+    "depositario": "Secretario General de las Naciones Unidas",
+    "validezPIC": "1 año desde la emisión",
+    "intro": "Firmada en Ginebra el 19 de septiembre de 1949 durante la Conferencia de las Naciones Unidas sobre Transporte por Carretera y Automotor, entró en vigor el 26 de marzo de 1952. Es la convención que da forma al Permiso Internacional de Conducir que todavía usan la mayoría de los países de América, incluidos Argentina, Chile, Paraguay, Perú, Estados Unidos y Canadá.",
+    "articulos": [
+      {
+        "ref": "Artículo 1",
+        "titulo": "Alcance y estadías de más de un año",
+        "resumen": "Cada Estado conserva el control sobre el uso de sus rutas, pero se compromete a aplicar la Convención a la circulación internacional. Los beneficios de la Convención no tienen por qué extenderse a conductores o vehículos que permanezcan en su territorio durante más de un año seguido: a partir de ahí rige la ley local."
+      },
+      {
+        "ref": "Artículo 24.1",
+        "titulo": "Reconocimiento de la licencia nacional",
+        "resumen": "Cada Estado contratante debe permitir que conduzca en sus rutas, sin un nuevo examen, quien tenga un permiso de conducir válido emitido por la autoridad competente de otro Estado contratante, para las clases de vehículos que figuran en ese permiso."
+      },
+      {
+        "ref": "Artículo 24.2",
+        "titulo": "Cuándo pueden exigir el permiso internacional",
+        "resumen": "Un Estado puede exigir que el conductor que entra a su territorio lleve un Permiso Internacional de Conducir conforme al modelo del Anexo 10, sobre todo cuando viene de un país donde la licencia nacional no sigue el modelo del Anexo 9. Esta es la base legal de que algunos países lo pidan y otros no."
+      },
+      {
+        "ref": "Artículo 24.3",
+        "titulo": "Quién emite el permiso internacional",
+        "resumen": "El permiso lo expide la autoridad competente de un Estado contratante, o una asociación habilitada por esa autoridad, con su sello, después de que el conductor haya demostrado su aptitud. Con él se puede conducir sin nuevo examen en todos los Estados contratantes, en las clases para las que fue emitido."
+      },
+      {
+        "ref": "Artículo 24.4 y 24.5",
+        "titulo": "Retiro del derecho a usar el permiso",
+        "resumen": "Se puede negar el uso de permisos nacionales o internacionales cuando ya no se cumplen las condiciones de su expedición. Un Estado solo puede retirar el derecho a usarlos por una infracción que, según su ley, justifique el retiro; en ese caso puede retener el permiso hasta que termine la sanción o el conductor salga del país, y avisar a la autoridad que lo emitió."
+      },
+      {
+        "ref": "Artículo 24.6",
+        "titulo": "Transición desde convenciones anteriores",
+        "resumen": "Durante los cinco años siguientes a la entrada en vigor, los conductores habilitados por la Convención de París de 1926 o por la Convención Interamericana de Washington de 1943 se consideraron en regla."
+      },
+      {
+        "ref": "Artículo 25",
+        "titulo": "Intercambio de información entre países",
+        "resumen": "Los Estados se comprometen a compartir los datos que permitan identificar a titulares de permisos nacionales o internacionales que deban responder por infracciones de tránsito, y a los propietarios de vehículos extranjeros involucrados en accidentes graves."
+      },
+      {
+        "ref": "Artículo 30",
+        "titulo": "Relación con convenciones anteriores",
+        "resumen": "Entre los Estados que la ratificaron, la Convención de 1949 reemplaza a las de París de 1926 y a la Convención Interamericana de Washington de 1943."
+      },
+      {
+        "ref": "Anexo 8",
+        "titulo": "Condiciones que deben reunir los conductores",
+        "resumen": "Fija las condiciones mínimas para que un conductor sea admitido en la circulación internacional, entre ellas la edad mínima para conducir."
+      },
+      {
+        "ref": "Anexo 9",
+        "titulo": "Modelo de permiso de conducir nacional",
+        "resumen": "Describe el modelo de licencia nacional que los demás Estados deben reconocer, con las clases A (motos), B (autos y camionetas de hasta 3.500 kg), C (camiones), D (ómnibus) y E (con remolque pesado)."
+      },
+      {
+        "ref": "Anexo 10",
+        "titulo": "Modelo de Permiso Internacional de Conducir",
+        "resumen": "Define la libreta: formato de 105 × 148 mm, tapa gris y páginas blancas, primeras páginas en el idioma del país emisor, última página en francés y traducciones a los idiomas oficiales de la ONU y otros elegidos por el emisor. El permiso vale un año desde su emisión y los datos manuscritos deben ir en caracteres latinos."
+      }
+    ],
+    "enlaces": [
+      { "titulo": "Estado de la Convención y Estados parte (Colección de Tratados de la ONU)", "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en" },
+      { "titulo": "Texto de la Convención de 1949 (CEPE/UNECE, PDF en inglés)", "url": "https://www.unece.org/fileadmin/DAM/trans/conventn/Convention_on_Road_Traffic_of_1949.pdf" }
+    ]
+  },
+  {
+    "slug": "viena-1968",
+    "orden": 2,
+    "corto": "Viena 1968",
+    "nombre": "Convención sobre la Circulación Vial (Viena, 1968)",
+    "metaTitulo": "Convención de Viena 1968 y el permiso internacional",
+    "descripcion": "Resumen de la Convención de Viena de 1968 de la ONU sobre el Permiso Internacional de Conducir: artículos 41, 42 y 43, anexo 7 y validez de hasta 3 años.",
+    "organismo": "Naciones Unidas",
+    "esONU": true,
+    "fecha": "1968-11-08",
+    "vigencia": "1977-05-21",
+    "partes": "Más de 85 Estados",
+    "depositario": "Secretario General de las Naciones Unidas",
+    "validezPIC": "Hasta 3 años, sin superar el vencimiento de la licencia nacional",
+    "intro": "Firmada en Viena el 8 de noviembre de 1968 en la Conferencia del Consejo Económico y Social de la ONU sobre Circulación Vial, entró en vigor el 21 de mayo de 1977. Fue enmendada en 1993 y en 2006; las reglas actuales sobre permisos de conducir rigen desde el 29 de marzo de 2011. Entre los países que la ratificaron reemplaza a la de Ginebra de 1949. Uruguay y Brasil son parte de esta convención.",
+    "articulos": [
+      {
+        "ref": "Artículo 1",
+        "titulo": "Definiciones",
+        "resumen": "Define, entre otros, qué es un permiso de conducir y qué se entiende por residencia normal, dos conceptos clave para saber cuándo un conductor extranjero puede usar su licencia."
+      },
+      {
+        "ref": "Artículo 41.1",
+        "titulo": "Todo conductor debe tener licencia",
+        "resumen": "Todo conductor de un vehículo automotor debe tener un permiso de conducir, que solo se otorga tras comprobar sus conocimientos y aptitudes según las reglas de cada país."
+      },
+      {
+        "ref": "Artículo 41.2",
+        "titulo": "Qué licencias se reconocen",
+        "resumen": "Los Estados parte reconocen la licencia nacional que cumple el Anexo 6 y el Permiso Internacional que cumple el Anexo 7, siempre que este se presente junto con la licencia nacional correspondiente. El reconocimiento vale hasta que el país pase a ser el lugar de residencia normal del conductor."
+      },
+      {
+        "ref": "Artículo 41 (edades)",
+        "titulo": "Edad mínima para usar licencias extranjeras",
+        "resumen": "Un Estado puede negarse a reconocer licencias de personas menores de 18 años y, para las categorías C, D, CE y DE, de menores de 21 años. Las licencias de aprendiz no entran en el reconocimiento."
+      },
+      {
+        "ref": "Artículo 41 (validez)",
+        "titulo": "Vigencia del permiso internacional",
+        "resumen": "El permiso internacional vale como máximo tres años desde su emisión, o hasta el vencimiento de la licencia nacional si este es anterior."
+      },
+      {
+        "ref": "Artículo 41 (emisión)",
+        "titulo": "Solo lo emite el país de residencia",
+        "resumen": "El permiso internacional solo puede emitirlo el Estado donde el titular tiene su residencia normal y que emitió (o reconoció) su licencia nacional. No sirve para conducir en ese mismo país."
+      },
+      {
+        "ref": "Artículo 42",
+        "titulo": "Suspensión del derecho a conducir",
+        "resumen": "Un Estado puede retirar a un conductor que cometa una infracción grave el derecho a usar su licencia nacional o internacional en su territorio, retener el documento mientras dure la medida o hasta que salga del país, anotarlo en el permiso y comunicarlo a la autoridad que lo emitió."
+      },
+      {
+        "ref": "Artículo 43",
+        "titulo": "Disposiciones transitorias",
+        "resumen": "Las licencias y permisos emitidos antes del 29 de marzo de 2011 con los modelos anteriores de los anexos siguen siendo válidos hasta su vencimiento."
+      },
+      {
+        "ref": "Artículo 48",
+        "titulo": "Reemplazo de convenciones anteriores",
+        "resumen": "Entre los Estados que la ratificaron, la Convención de 1968 sustituye a las de París de 1926 y Ginebra de 1949."
+      },
+      {
+        "ref": "Anexo 6",
+        "titulo": "Modelo de licencia nacional",
+        "resumen": "Establece los datos y categorías que debe tener la licencia nacional para ser reconocida: A, B, C, D, BE, CE, DE y subcategorías como A1, B1, C1 y D1."
+      },
+      {
+        "ref": "Anexo 7",
+        "titulo": "Modelo de Permiso Internacional de Conducir",
+        "resumen": "Define la libreta internacional modelo 1968, multilingüe, con los datos del titular, su foto y las categorías habilitadas, que se presenta siempre junto con la licencia nacional."
+      }
+    ],
+    "enlaces": [
+      { "titulo": "Estado de la Convención y Estados parte (Colección de Tratados de la ONU)", "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en" },
+      { "titulo": "Texto original de la Convención de 1968 (ONU, PDF)", "url": "https://treaties.un.org/doc/Treaties/1977/05/19770524%2000-13%20AM/Ch_XI_B_19.pdf" },
+      { "titulo": "Versión consolidada con enmiendas de 2006 (CEPE/UNECE, PDF)", "url": "https://www.unece.org/fileadmin/DAM/trans/conventn/Conv_road_traffic_EN.pdf" }
+    ]
+  },
+  {
+    "slug": "paris-1926",
+    "orden": 3,
+    "corto": "París 1926",
+    "nombre": "Convención Internacional relativa a la Circulación de Automóviles (París, 1926)",
+    "metaTitulo": "Convención de París 1926: el origen del permiso internacional",
+    "descripcion": "La Convención de París de 1926 creó el primer permiso internacional de conducir. Qué establecía y por qué hoy la reemplazan Ginebra 1949 y Viena 1968.",
+    "organismo": "Sociedad de las Naciones (antecesora de la ONU)",
+    "esONU": false,
+    "fecha": "1926-04-24",
+    "vigencia": null,
+    "partes": null,
+    "depositario": null,
+    "validezPIC": "1 año",
+    "intro": "Es el antecedente directo de las convenciones de la ONU. Firmada en París bajo el sistema de la Sociedad de las Naciones, introdujo la expresión «permis de conduire international», de donde viene el nombre que usamos hoy. Entre los países que ratificaron Ginebra 1949 o Viena 1968, quedó reemplazada por esos tratados.",
+    "articulos": [
+      {
+        "ref": "Origen del nombre",
+        "titulo": "El primer «permiso internacional»",
+        "resumen": "La convención de 1926 creó el primer documento estandarizado para que un conductor pudiera circular en otros países firmantes, y de ella viene la denominación Permiso Internacional de Conducir."
+      },
+      {
+        "ref": "Situación actual",
+        "titulo": "Reemplazada por Ginebra y Viena",
+        "resumen": "El artículo 30 de la Convención de Ginebra de 1949 y el artículo 48 de la de Viena de 1968 la sustituyen entre los Estados que ratificaron esos tratados."
+      }
+    ],
+    "enlaces": []
+  },
+  {
+    "slug": "washington-1943",
+    "orden": 4,
+    "corto": "Washington 1943",
+    "nombre": "Convención sobre Reglamentación del Tránsito Automotor Interamericano (Washington, 1943)",
+    "metaTitulo": "Convención de Washington 1943 y el permiso interamericano",
+    "descripcion": "Qué es la Convención Interamericana de Washington de 1943, el Permiso Interamericano de Conducir y cómo se relaciona con las convenciones de la ONU.",
+    "organismo": "Unión Panamericana (hoy OEA)",
+    "esONU": false,
+    "fecha": "1943-12-15",
+    "vigencia": null,
+    "partes": null,
+    "depositario": null,
+    "validezPIC": "1 año (según el emisor)",
+    "intro": "No es un tratado de la ONU sino del sistema interamericano. Creó el Permiso Interamericano de Conducir, que algunos clubes de la región siguen emitiendo junto al internacional. Argentina y Uruguay lo mencionan como base de sus permisos, al lado de Ginebra 1949 y Viena 1968.",
+    "articulos": [
+      {
+        "ref": "Permiso Interamericano",
+        "titulo": "Un documento para las Américas",
+        "resumen": "Estableció un permiso de conducir para circular entre los países americanos firmantes. En Argentina, el Automóvil Club Argentino emite el Permiso Internacional y el Interamericano."
+      },
+      {
+        "ref": "Relación con la ONU",
+        "titulo": "Reemplazada entre quienes ratificaron Ginebra",
+        "resumen": "El artículo 30 de la Convención de Ginebra de 1949 la reemplaza entre los Estados que ratificaron ambos tratados."
+      }
+    ],
+    "enlaces": [
+      { "titulo": "Automóvil Club Argentino — Permiso Internacional e Interamericano", "url": "https://www.aca.org.ar/registro-internacional/" }
+    ]
+  }
+]

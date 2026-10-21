@@ -1,0 +1,96 @@
+name: Actualizar y publicar el sitio
+
+on:
+  # Actualización automática: todos los lunes a las 07:23 de Montevideo (10:23 UTC).
+  schedule:
+    - cron: '23 10 * * 1'
+  # Ejecución manual desde la pestaña Actions.
+  workflow_dispatch:
+    inputs:
+      paises:
+        description: 'Cantidad de países a revisar'
+        required: false
+        default: '10'
+      post:
+        description: 'Post de road trip'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+          - 'auto'
+          - 'forzar'
+          - 'no'
+  # Cualquier cambio manual en main vuelve a publicar el sitio (sin llamar a la API).
+  push:
+    branches: [main]
+
+concurrency:
+  group: sitio
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Revisar 10 países y escribir el road trip semanal
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+        run: |
+          ARGS="--paises=${{ github.event.inputs.paises || '10' }}"
+          case "${{ github.event.inputs.post || 'auto' }}" in
+            forzar) ARGS="$ARGS --forzar-post" ;;
+            no) ARGS="$ARGS --sin-post" ;;
+          esac
+          npm run update -- $ARGS
+
+      - name: Guardar las fichas y los posts nuevos en el repositorio
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data content
+          if git diff --cached --quiet; then
+            echo "No hay cambios para guardar."
+          else
+            git commit -m "Actualización automática $(date -u +%F)"
+            git push
+          fi
+
+      - name: Generar el sitio
+        run: npm run build
+
+      - name: Verificar enlaces y etiquetas SEO
+        run: npm run check
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
