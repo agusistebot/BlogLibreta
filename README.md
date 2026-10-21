@@ -13,7 +13,7 @@ La investigación la hace **Gemini** (nivel gratuito de la API de Google) con re
 ## Puesta en marcha (una sola vez)
 
 1. **Subí estos archivos a un repositorio de GitHub** (rama `main`).
-2. **Activá GitHub Pages:** *Settings → Pages → Build and deployment → Source:* **GitHub Actions**.
+2. **Activá GitHub Pages:** *Settings → Pages → Build and deployment → Source:* **GitHub Actions**. No elijas *Deploy from a branch*: con esa opción GitHub muestra este README en lugar del sitio.
 3. **Creá las dos claves gratuitas** y guardalas en *Settings → Secrets and variables → Actions → New repository secret*:
    - `GEMINI_API_KEY`: se crea en Google AI Studio (https://aistudio.google.com) con *Get API key*. Usá un proyecto sin facturación para quedarte en el nivel gratuito.
    - `TAVILY_API_KEY`: se crea en https://tavily.com. El plan gratuito trae 1.000 búsquedas por mes; cada ejecución semanal usa unas 45 (4 por país y 5 para el post).
@@ -44,6 +44,10 @@ En el nivel gratuito de Gemini, Google puede usar el contenido de las consultas 
 - **Con cada cambio en `main`:** vuelve a publicar el sitio sin llamar a la API (por ejemplo, si editás una empresa).
 
 Cada ejecución guarda un resumen en `data/estado.json` (países actualizados, errores, post publicado y avance de la semana).
+
+### Si en la web se ve este README en lugar del sitio
+
+GitHub Pages quedó en *Deploy from a branch* y está publicando el repositorio tal cual. Andá a *Settings → Pages → Build and deployment → Source*, elegí **GitHub Actions** y volvé a ejecutar el workflow desde *Actions → Run workflow*. Revisá que *Custom domain* siga en `permisointernacionaldeconducir.com` y que *Enforce HTTPS* esté activado. El workflow avisa con un error rojo si detecta esta configuración.
 
 ### Si Gemini está saturado (error 503)
 

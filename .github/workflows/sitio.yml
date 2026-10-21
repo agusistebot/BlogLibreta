@@ -108,5 +108,18 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # Si Pages está en "Deploy from a branch", GitHub publica el repositorio con Jekyll
+      # (se ve el README) y pisa el sitio generado. Este paso lo detecta y lo explica.
+      - name: Verificar la configuración de GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tipo=$(gh api "repos/${{ github.repository }}/pages" --jq '.build_type' 2>/dev/null || echo "desconocido")
+          echo "Origen de GitHub Pages: $tipo"
+          if [ "$tipo" = "legacy" ]; then
+            echo "::error title=GitHub Pages mal configurado::Pages está publicando la rama main directamente (Deploy from a branch), por eso se ve el README en lugar del sitio. Andá a Settings → Pages → Build and deployment → Source y elegí 'GitHub Actions'. Después volvé a ejecutar este workflow."
+            exit 1
+          fi
+
       - id: deployment
         uses: actions/deploy-pages@v4
