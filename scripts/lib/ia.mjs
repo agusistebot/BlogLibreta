@@ -13,6 +13,14 @@ import { generar, modeloGemini, resolverRedireccion } from './gemini.mjs';
 import { buscar } from './tavily.mjs';
 import { normalizarUrl, hoyISO } from './util.mjs';
 
+const cacheBusquedas = new Map();
+
+// Errores pasajeros (servicio saturado, sin conexión, cuota del día): el país no tiene la culpa
+// y se vuelve a intentar en la próxima ejecución sin perder su lugar en la fila.
+export function esTransitorio(e) {
+  return Boolean(e?.transitorio || e?.cuotaDiaria);
+}
+
 export function proveedor() {
   const elegido = (process.env.AI_PROVIDER || '').toLowerCase();
   if (elegido === 'claude' || elegido === 'gemini') return elegido;
@@ -76,21 +84,28 @@ export async function investigar({ system, prompt, consultas = [], maxTokens = 1
   if (buscador() === 'tavily') {
     const vistos = new Map();
     let busquedas = 0;
+    let fallidas = 0;
     for (const consulta of consultas.slice(0, maxBusquedas)) {
       try {
-        const resultados = await buscar(consulta, { maxResultados: 5, excluir });
-        busquedas++;
-        for (const r of resultados) {
+        // Si Gemini falla y el país se reintenta en la misma ejecución, no se gastan búsquedas otra vez.
+        if (!cacheBusquedas.has(consulta)) {
+          cacheBusquedas.set(consulta, await buscar(consulta, { maxResultados: 5, excluir }));
+          busquedas++;
+        }
+        for (const r of cacheBusquedas.get(consulta)) {
           const clave = normalizarUrl(r.url);
           if (!vistos.has(clave)) vistos.set(clave, r);
         }
       } catch (e) {
         if (e.fatal) throw e;
+        fallidas++;
         console.warn(`    Búsqueda fallida "${consulta}": ${e.message}`);
       }
     }
     const resultados = [...vistos.values()].slice(0, 18);
-    if (!resultados.length) throw new Error('La búsqueda web no devolvió resultados.');
+    if (!resultados.length) {
+      throw Object.assign(new Error('La búsqueda web no devolvió resultados.'), { transitorio: fallidas > 0 });
+    }
     const contexto = resultados
       .map((r, i) => `[${i + 1}] ${r.titulo}\nURL: ${r.url}\n${limpiarTexto(r.texto || r.extracto, 3500)}`)
       .join('\n\n---\n\n');

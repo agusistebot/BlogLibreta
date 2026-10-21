@@ -38,11 +38,22 @@ En el nivel gratuito de Gemini, Google puede usar el contenido de las consultas 
 
 ## Cuándo corre
 
-- **Todos los lunes a las 07:23 (hora de Montevideo):** revisa 10 países, escribe el road trip de la semana y publica.
+- **Lunes a las 07:23 (hora de Montevideo):** revisa 10 países, escribe el road trip de la semana y publica.
+- **Miércoles y viernes a la misma hora:** completan lo que haya quedado pendiente de la semana. Si el lunes salió todo bien, no llaman a la IA y no cambian nada.
 - **A mano:** desde *Actions → Run workflow*, con opciones para la cantidad de países y para forzar u omitir el post.
 - **Con cada cambio en `main`:** vuelve a publicar el sitio sin llamar a la API (por ejemplo, si editás una empresa).
 
-Cada ejecución guarda un resumen en `data/estado.json` (países actualizados, errores y post publicado). Si un país falla, se lo saltea y se vuelve a intentar en la próxima vuelta del ciclo.
+Cada ejecución guarda un resumen en `data/estado.json` (países actualizados, errores, post publicado y avance de la semana).
+
+### Si Gemini está saturado (error 503)
+
+Los modelos gratuitos de Gemini a veces responden *«This model is currently experiencing high demand»*. Es un problema pasajero de Google, no de tu configuración. Cuando pasa:
+
+- Se prueba el siguiente modelo gratuito de la lista (`gemini-3.8-flash`, luego `gemini-3.6-flash`, luego `gemini-3.5-flash-lite`).
+- Si fallan todos con 3 países seguidos, la ejecución se detiene con un aviso amarillo (no en rojo), guarda lo que ya hizo y deja el resto para el miércoles o el viernes.
+- Los países que no se pudieron revisar conservan su lugar al principio de la fila.
+
+Solo un país cuyo contenido falla 3 veces seguidas (por ejemplo, porque no aparecen fuentes) pasa al final de la fila. Una ejecución termina en rojo únicamente si hay un problema que no se arregla esperando, como una clave inválida.
 
 ## Dónde se edita cada cosa
 

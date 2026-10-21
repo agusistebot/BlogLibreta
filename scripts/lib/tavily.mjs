@@ -36,7 +36,8 @@ export async function buscar(consulta, { maxResultados = 5, excluir = [] } = {})
     }
     const texto = await res.text();
     if (res.status === 432 || res.status === 433) {
-      throw Object.assign(new Error('Se agotaron los créditos de Tavily de este mes.'), { fatal: true });
+      // Los créditos vuelven el mes que viene: es un corte pasajero, no un error de configuración.
+      throw Object.assign(new Error('Se agotaron los créditos gratuitos de Tavily de este mes.'), { fatal: true, transitorio: true });
     }
     if (res.status === 401) throw Object.assign(new Error('La clave TAVILY_API_KEY no es válida.'), { fatal: true });
     ultimo = new Error(`Tavily ${res.status}: ${texto.slice(0, 300)}`);

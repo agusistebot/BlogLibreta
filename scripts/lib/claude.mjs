@@ -26,14 +26,15 @@ async function llamar(body, intentos = 5) {
         signal: AbortSignal.timeout(300_000),
       });
     } catch (e) {
-      ultimoError = e;
+      ultimoError = Object.assign(new Error(`Sin respuesta de la API de Claude: ${e.message}`), { transitorio: true });
       await esperar(2000 * 2 ** i);
       continue;
     }
     if (res.ok) return res.json();
     const texto = await res.text();
-    ultimoError = new Error(`API ${res.status}: ${texto.slice(0, 400)}`);
-    if (![408, 409, 429, 500, 502, 503, 504, 529].includes(res.status)) throw ultimoError;
+    const reintentable = [408, 409, 429, 500, 502, 503, 504, 529].includes(res.status);
+    ultimoError = Object.assign(new Error(`API ${res.status}: ${texto.slice(0, 400)}`), { status: res.status, transitorio: reintentable });
+    if (!reintentable) throw ultimoError;
     const retry = Number(res.headers.get('retry-after'));
     await esperar(Number.isFinite(retry) && retry > 0 ? retry * 1000 : 3000 * 2 ** i);
   }
