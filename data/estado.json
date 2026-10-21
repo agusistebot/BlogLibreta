@@ -1,0 +1,42 @@
+{
+  "ultimaEjecucion": "2026-10-21T20:12:01.576Z",
+  "modelo": "gemini-3.5-flash-lite + Tavily",
+  "paisesActualizados": [
+    "BR",
+    "CL",
+    "ES",
+    "US",
+    "IT",
+    "FR",
+    "MX",
+    "PY",
+    "PE",
+    "PT"
+  ],
+  "errores": [],
+  "post": null,
+  "cortado": false,
+  "semana": {
+    "id": "2026-W43",
+    "paises": [
+      "BR",
+      "CL",
+      "ES",
+      "US",
+      "IT",
+      "FR",
+      "MX",
+      "PY",
+      "PE",
+      "PT"
+    ]
+  },
+  "ejecuciones": [
+    {
+      "fecha": "2026-10-21T20:12:01.576Z",
+      "paises": 10,
+      "errores": 0,
+      "post": null
+    }
+  ]
+}
