@@ -28,7 +28,14 @@ export const SITE = {
 export const PAISES_POR_EJECUCION = 10;
 export const POSTS_POR_PAGINA = 10;
 
-// Modelo de Claude para las actualizaciones (se puede cambiar con la variable ANTHROPIC_MODEL).
+// Modelos de Gemini a probar en orden (variable GEMINI_MODEL, separados por coma).
+// Todos tienen nivel gratuito en la API de Gemini.
+export const MODELOS_GEMINI = (process.env.GEMINI_MODEL || 'gemini-3.8-flash,gemini-3.6-flash,gemini-3.5-flash-lite')
+  .split(',')
+  .map((m) => m.trim())
+  .filter(Boolean);
+
+// Modelo de Claude, solo si se elige AI_PROVIDER=claude (variable ANTHROPIC_MODEL).
 export const MODELO = process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5';
 export const WEB_SEARCH_TOOL = process.env.WEB_SEARCH_TOOL || 'web_search_20250305';
 

@@ -47,6 +47,13 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         continue-on-error: true
         env:
+          # Opción gratuita (por defecto): Gemini + Tavily.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          # Opcionales: AI_PROVIDER=claude o SEARCH_PROVIDER=google (ver README).
+          AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+          SEARCH_PROVIDER: ${{ vars.SEARCH_PROVIDER }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         run: |

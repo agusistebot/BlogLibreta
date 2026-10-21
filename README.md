@@ -8,16 +8,16 @@ Se publica en **GitHub Pages** y se actualiza solo **una vez por semana** con Gi
 - Publica **un road trip nuevo** por semana. Los posts anteriores quedan guardados en `content/blog/` y nunca se vuelven a generar; las rutas ya usadas quedan marcadas en `data/roadtrips.json`.
 - Guarda los cambios en el repositorio, genera el sitio y lo publica.
 
-La investigación la hace Claude (API de Anthropic) con búsqueda web. Solo se aceptan fuentes que aparecieron en esa búsqueda: las URLs inventadas se descartan, y una ficha necesita al menos dos fuentes comprobables para marcar un estado definitivo.
+La investigación la hace **Gemini** (nivel gratuito de la API de Google) con resultados de búsqueda de **Tavily** (plan gratuito). Las dos cuentas son gratis y no piden tarjeta. Solo se aceptan fuentes que aparecieron en esa búsqueda: las URLs inventadas se descartan, y una ficha necesita al menos dos fuentes comprobables para marcar un estado definitivo.
 
 ## Puesta en marcha (una sola vez)
 
 1. **Subí estos archivos a un repositorio de GitHub** (rama `main`).
 2. **Activá GitHub Pages:** *Settings → Pages → Build and deployment → Source:* **GitHub Actions**.
-3. **Agregá la clave de la API de Claude:** *Settings → Secrets and variables → Actions → New repository secret*
-   - Nombre: `ANTHROPIC_API_KEY`
-   - Valor: una clave creada en la Consola de Claude. La búsqueda web tiene que estar habilitada para tu organización en la Consola. Documentación: https://docs.claude.com
-   - Opcional: en la pestaña *Variables* podés crear `ANTHROPIC_MODEL` para elegir otro modelo (por defecto `claude-sonnet-5-5`).
+3. **Creá las dos claves gratuitas** y guardalas en *Settings → Secrets and variables → Actions → New repository secret*:
+   - `GEMINI_API_KEY`: se crea en Google AI Studio (https://aistudio.google.com) con *Get API key*. Usá un proyecto sin facturación para quedarte en el nivel gratuito.
+   - `TAVILY_API_KEY`: se crea en https://tavily.com. El plan gratuito trae 1.000 búsquedas por mes; cada ejecución semanal usa unas 45 (4 por país y 5 para el post).
+   - Opcional: en la pestaña *Variables* podés crear `GEMINI_MODEL` para cambiar el modelo (por defecto prueba `gemini-3.8-flash`, luego `gemini-3.6-flash` y `gemini-3.5-flash-lite`).
 4. **Dominio propio:** en *Settings → Pages → Custom domain* escribí `permisointernacionaldeconducir.com` (el archivo `static/CNAME` ya lo incluye). En tu proveedor de DNS:
    - Registros `A` del dominio raíz: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - Registro `CNAME` de `www` → `TU-USUARIO.github.io`
@@ -26,6 +26,15 @@ La investigación la hace Claude (API de Anthropic) con búsqueda web. Solo se a
 6. **Google Search Console:** verificá el dominio y enviá `https://permisointernacionaldeconducir.com/sitemap.xml`.
 
 Si el paso que guarda los cambios falla con un error de permisos, revisá *Settings → Actions → General → Workflow permissions* y elegí **Read and write permissions**.
+
+### Otras opciones de IA (pagas)
+
+| Variable (pestaña *Variables*) | Qué hace | Costo |
+| --- | --- | --- |
+| `SEARCH_PROVIDER=google` | Gemini busca con Google Search integrado, sin Tavily | Requiere el nivel pago de Gemini: incluye 5.000 búsquedas por mes y después cobra por búsqueda |
+| `AI_PROVIDER=claude` + secret `ANTHROPIC_API_KEY` | Usa Claude con su búsqueda web | La API de Claude es paga; los planes Max y Team de Claude incluyen créditos mensuales de API |
+
+En el nivel gratuito de Gemini, Google puede usar el contenido de las consultas para mejorar sus productos. Acá solo se envían búsquedas sobre información pública.
 
 ## Cuándo corre
 
@@ -47,7 +56,7 @@ Cada ejecución guarda un resumen en `data/estado.json` (países actualizados, e
 | Diseño | `static/assets/site.css` |
 | Plantillas y textos de las páginas | `scripts/lib/pages.mjs`, `scripts/lib/templates.mjs` |
 
-Para corregir a mano una ficha, editá el país en `data/paises.json`. Para que la automatización lo vuelva a revisar enseguida, ejecutá `npm run update -- --solo=ISO` (por ejemplo `--solo=JP`) con la clave en la variable `ANTHROPIC_API_KEY`.
+Para corregir a mano una ficha, editá el país en `data/paises.json`. Para que la automatización lo vuelva a revisar enseguida, ejecutá `npm run update -- --solo=ISO` (por ejemplo `--solo=JP`) con las claves `GEMINI_API_KEY` y `TAVILY_API_KEY` en el entorno.
 
 ## Comandos locales
 

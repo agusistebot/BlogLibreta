@@ -1,7 +1,8 @@
 // Revisión de la ficha de un país con Claude + búsqueda web.
 import { ESTADOS } from './config.mjs';
-import { preguntarConBusqueda, extraerJson, filtrarFuentes } from './claude.mjs';
-import { esUrl, hostname, recortar, hoyISO } from './util.mjs';
+import { extraerJson, filtrarFuentes } from './claude.mjs';
+import { investigar } from './ia.mjs';
+import { esUrl, hostname, recortar, hoyISO, normalizarUrl } from './util.mjs';
 
 const FUENTES_ONU = [
   'https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en',
@@ -18,12 +19,12 @@ const DOMINIOS_BLOQUEADOS = (process.env.DOMINIOS_BLOQUEADOS || 'idaoffice.org,i
 const SYSTEM = `Sos un investigador de normativa de tránsito internacional. Escribís fichas para un sitio en español sobre el Permiso Internacional de Conducir (PIC, "libreta internacional"). El público son turistas hispanohablantes, sobre todo con licencia de Uruguay o Argentina.
 
 Reglas:
-- Buscá en la web antes de responder. Priorizá fuentes oficiales: ministerios u organismos de tránsito del país, embajadas y consulados, sitios oficiales de turismo, el automóvil club que emite el PIC en ese país y la Colección de Tratados de la ONU.
+- Basate solo en información encontrada en la web: si tenés una herramienta de búsqueda, usala; si el mensaje trae resultados de búsqueda, usá únicamente esos. Priorizá fuentes oficiales: ministerios u organismos de tránsito del país, embajadas y consulados, sitios oficiales de turismo, el automóvil club que emite el PIC en ese país y la Colección de Tratados de la ONU.
 - No uses como fuente sitios que venden permisos o "documentos internacionales de conducir"; están sesgados.
 - No inventes nada. Cada afirmación tiene que salir de una fuente que hayas encontrado en esta búsqueda, y en "fuentes" solo van URLs que aparecieron en tus resultados.
 - Si las fuentes se contradicen o no alcanzan, usá "depende" y explicá la diferencia, o "sin-verificar" si no encontraste nada confiable.
 - Escribí en español claro y neutro, en forma impersonal (sin "tú" ni "vos"). Parafraseá: no copies frases de las fuentes.
-- Respondé SOLO con un bloque \`\`\`json con el objeto pedido, sin texto antes ni después.`;
+- Respondé SOLO con el objeto JSON pedido (si podés, dentro de un bloque \`\`\`json), sin texto antes ni después.`;
 
 function prompt(pais) {
   return `Fecha de hoy: ${hoyISO()}.
@@ -71,6 +72,24 @@ Formato exacto de la respuesta:
 \`\`\``;
 }
 
+// Búsquedas que se hacen cuando el modelo no busca por su cuenta (Gemini gratis + Tavily).
+function consultas(pais) {
+  return [
+    `${pais.nombreEn} international driving permit required foreign tourists driving licence`,
+    `${pais.nombre} permiso internacional de conducir turistas extranjeros licencia`,
+    `${pais.nombreEn} automobile club issues international driving permit`,
+    `${pais.nombreEn} foreign driving licence how long tourists can drive official government`,
+  ];
+}
+
+function complementarFuentes(fuentes, resultados) {
+  const vistas = new Set(fuentes.map((f) => normalizarUrl(f.url)));
+  const extra = resultados
+    .filter((r) => !vistas.has(normalizarUrl(r.url)))
+    .map((r) => ({ titulo: r.titulo || hostname(r.url), url: r.url }));
+  return [...fuentes, ...extra].slice(0, 6);
+}
+
 function texto(valor, max) {
   if (typeof valor !== 'string') return null;
   const limpio = valor.replace(/\s+/g, ' ').trim();
@@ -87,9 +106,10 @@ function entidad(obj, hosts) {
   return { nombre, url, ...(telefono && telefono !== 'null' ? { telefono } : {}) };
 }
 
-export function validarFicha(json, urls, pais) {
+export function validarFicha(json, urls, pais, { resultados = [], complementar = false } = {}) {
   const hosts = new Set([...urls].map(hostname));
-  const fuentes = filtrarFuentes(json.fuentes, urls, FUENTES_ONU);
+  let fuentes = filtrarFuentes(json.fuentes, urls, FUENTES_ONU);
+  if (complementar && fuentes.length < 3) fuentes = complementarFuentes(fuentes, resultados);
   if (!fuentes.length) throw new Error('Ninguna fuente citada apareció en los resultados de búsqueda.');
 
   let requisito = ESTADOS[json.requisito] ? json.requisito : 'sin-verificar';
@@ -130,13 +150,14 @@ export function validarFicha(json, urls, pais) {
 }
 
 export async function revisarPais(pais) {
-  const { texto: respuesta, urls, uso } = await preguntarConBusqueda({
+  const { texto: respuesta, urls, uso, resultados, complementar } = await investigar({
     system: SYSTEM,
     prompt: prompt(pais),
-    maxTokens: 6000,
+    consultas: consultas(pais),
+    maxTokens: 16000,
     maxBusquedas: 6,
-    dominiosBloqueados: DOMINIOS_BLOQUEADOS,
+    excluir: DOMINIOS_BLOQUEADOS,
   });
-  const ficha = validarFicha(extraerJson(respuesta), urls, pais);
+  const ficha = validarFicha(extraerJson(respuesta), urls, pais, { resultados, complementar });
   return { ficha, uso };
 }

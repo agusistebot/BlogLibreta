@@ -7,12 +7,15 @@
 //   npm run update -- --solo=JP        → revisa solo ese país (útil para corregir una ficha)
 //   npm run update -- --simular        → muestra qué haría, sin llamar a la API ni escribir nada
 //
+// IA: por defecto Gemini (nivel gratuito) + Tavily (plan gratuito) para buscar. Ver scripts/lib/ia.mjs.
+//
 // Orden de revisión: primero los países que nunca se revisaron (los más visitados antes),
 // después los que llevan más tiempo sin revisarse. Al terminar la lista, el ciclo vuelve a empezar solo.
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
-import { DATA, POSTS_DIR, PAISES_POR_EJECUCION, MODELO } from './lib/config.mjs';
+import { DATA, POSTS_DIR, PAISES_POR_EJECUCION } from './lib/config.mjs';
+import { descripcion, verificarClaves, pausaEntreLlamadas } from './lib/ia.mjs';
 import { readJSON, writeJSON, hoyISO, semanaISO } from './lib/util.mjs';
 
 const args = Object.fromEntries(
@@ -27,6 +30,7 @@ const CANTIDAD = Math.max(0, Number(args.paises ?? PAISES_POR_EJECUCION) || 0);
 const ARCHIVO_PAISES = path.join(DATA, 'paises.json');
 const ARCHIVO_RUTAS = path.join(DATA, 'roadtrips.json');
 const ARCHIVO_ESTADO = path.join(DATA, 'estado.json');
+const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function ordenDeRevision(paises) {
   return [...paises].sort((a, b) => {
@@ -62,7 +66,8 @@ async function revisarPaises(paises, estado) {
   console.log(`Países a revisar (${elegidos.length}): ${elegidos.map((p) => p.nombre).join(', ') || 'ninguno'}`);
   if (SIMULAR) return;
 
-  for (const pais of elegidos) {
+  for (const [i, pais] of elegidos.entries()) {
+    if (i > 0) await esperar(pausaEntreLlamadas());
     const hoy = hoyISO();
     try {
       const { ficha, uso } = await revisarPais(pais);
@@ -71,7 +76,7 @@ async function revisarPaises(paises, estado) {
         ultimaRevision: hoy,
         verificado: ficha.requisito !== 'sin-verificar',
         ultimoError: null,
-        historial: [{ fecha: hoy, requisito: ficha.requisito, origen: MODELO }, ...(pais.historial || [])].slice(0, 12),
+        historial: [{ fecha: hoy, requisito: ficha.requisito, origen: descripcion() }, ...(pais.historial || [])].slice(0, 12),
       });
       estado.paisesActualizados.push(pais.iso2);
       console.log(`  ✔ ${pais.nombre}: ${ficha.requisito} (${ficha.fuentes.length} fuentes, ${uso.busquedas} búsquedas)`);
@@ -98,7 +103,7 @@ async function publicarPost(paises, estado) {
   }
   const rutas = readJSON(ARCHIVO_RUTAS, { rutas: [] });
   const proxima = rutas.rutas.find((r) => !r.usado);
-  console.log(`Post de la semana: ${proxima ? proxima.ruta : 'ruta nueva elegida por Claude'}`);
+  console.log(`Post de la semana: ${proxima ? proxima.ruta : 'ruta nueva elegida por la IA'}`);
   if (SIMULAR) return;
   const { escribirPost } = await import('./lib/write-post.mjs');
   try {
@@ -115,15 +120,15 @@ async function publicarPost(paises, estado) {
 async function main() {
   const paises = readJSON(ARCHIVO_PAISES, []);
   if (!paises.length) throw new Error('No hay países. Ejecutá npm run seed.');
-  if (!SIMULAR && !process.env.ANTHROPIC_API_KEY) {
-    throw new Error('Falta ANTHROPIC_API_KEY. En GitHub: Settings → Secrets and variables → Actions → New repository secret.');
-  }
-  const estado = { ultimaEjecucion: new Date().toISOString(), modelo: MODELO, paisesActualizados: [], errores: [], post: null };
+  if (!SIMULAR) verificarClaves();
+  const estado = { ultimaEjecucion: new Date().toISOString(), modelo: null, paisesActualizados: [], errores: [], post: null };
+  console.log(`IA: ${descripcion()}`);
 
   if (CANTIDAD > 0 || args.solo) await revisarPaises(paises, estado);
   if (!args['sin-post'] && !args.solo) await publicarPost(paises, estado);
 
   if (SIMULAR) return console.log('Simulación: no se escribió nada.');
+  estado.modelo = descripcion();
   const previo = readJSON(ARCHIVO_ESTADO, {});
   writeJSON(ARCHIVO_ESTADO, { ...estado, ejecuciones: [{ fecha: estado.ultimaEjecucion, paises: estado.paisesActualizados.length, errores: estado.errores.length, post: estado.post }, ...(previo.ejecuciones || [])].slice(0, 52) });
 
