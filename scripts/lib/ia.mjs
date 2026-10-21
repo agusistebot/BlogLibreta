@@ -6,7 +6,7 @@
 //   claude           (pago): Claude busca con su herramienta de búsqueda web.
 //
 // Se elige con las variables AI_PROVIDER (gemini | claude) y SEARCH_PROVIDER (tavily | google).
-// Si no se indican, se usa Gemini cuando hay GEMINI_API_KEY, y Tavily cuando hay TAVILY_API_KEY.
+// Si no se indican, se usa Gemini (si hay GEMINI_API_KEY) con Tavily para buscar.
 import { MODELO as MODELO_CLAUDE } from './config.mjs';
 import { preguntarConBusqueda } from './claude.mjs';
 import { generar, modeloGemini, resolverRedireccion } from './gemini.mjs';
@@ -25,7 +25,8 @@ export function buscador() {
   if (proveedor() === 'claude') return 'claude';
   const elegido = (process.env.SEARCH_PROVIDER || '').toLowerCase();
   if (elegido === 'tavily' || elegido === 'google') return elegido;
-  return process.env.TAVILY_API_KEY ? 'tavily' : 'google';
+  // Google Search integrado solo funciona en el nivel pago de Gemini: hay que pedirlo explícitamente.
+  return 'tavily';
 }
 
 export function descripcion() {
