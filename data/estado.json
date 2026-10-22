@@ -1,25 +1,19 @@
 {
-  "ultimaEjecucion": "2026-10-22T14:56:53.017Z",
+  "ultimaEjecucion": "2026-10-22T18:11:47.104Z",
   "modelo": "gemini-3.5-flash-lite + Tavily",
   "paisesActualizados": [
-    "TR",
-    "AT",
-    "AE",
-    "MA",
-    "PR",
-    "ZA",
-    "BE",
-    "IL",
-    "NO",
-    "GT"
+    "DK",
+    "SE",
+    "KR",
+    "EG",
+    "SV",
+    "SI",
+    "FI",
+    "HN",
+    "ID",
+    "NA"
   ],
-  "errores": [
-    {
-      "pais": "DK",
-      "error": "Todos los modelos de Gemini fallaron. Último error: Gemini 503 (gemini-3.6-flash): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-      "pasajero": true
-    }
-  ],
+  "errores": [],
   "post": null,
   "cortado": false,
   "semana": {
@@ -64,10 +58,26 @@
       "BE",
       "IL",
       "NO",
-      "GT"
+      "GT",
+      "DK",
+      "SE",
+      "KR",
+      "EG",
+      "SV",
+      "SI",
+      "FI",
+      "HN",
+      "ID",
+      "NA"
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-10-22T18:11:47.104Z",
+      "paises": 10,
+      "errores": 0,
+      "post": null
+    },
     {
       "fecha": "2026-10-22T14:56:53.017Z",
       "paises": 10,
