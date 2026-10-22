@@ -460,29 +460,65 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Austria es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "obligatorio",
+    "resumen": "Austria exige a los turistas con licencias de conducir extranjeras (fuera de la UE o EEE) que presenten el Permiso Internacional de Conducir junto con su licencia nacional. El país es parte de las convenciones de Ginebra de 1949 y Viena de 1968.",
+    "detalles": [
+      "Es obligatorio portar el Permiso Internacional de Conducir (PIC) junto con la licencia nacional de conducir en todo momento.",
+      "Austria reconoce los modelos de PIC de la Convención de Ginebra (1949) y de la Convención de Viena (1968).",
+      "Para turistas sin residencia establecida, la licencia extranjera combinada con el PIC es válida por un período máximo de hasta 12 meses desde la entrada al país.",
+      "Las personas que establezcan su residencia en Austria solo pueden utilizar su licencia extranjera y el PIC durante los primeros seis meses antes de tramitar el canje obligatorio.",
+      "Las empresas de alquiler de vehículos y las autoridades de tránsito locales pueden exigir el PIC o una traducción oficial al alemán.",
+      "El incumplimiento de las normativas de tránsito o conducir sin la documentación adecuada puede acarrear multas severas y sanciones."
+    ],
     "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "12 meses para turistas sin residencia; 6 meses para quienes establecen residencia",
+    "autoridadTransito": {
+      "nombre": "Federal Ministry of Innovation, Mobility and Infrastructure",
+      "url": "https://www.oesterreich.gv.at"
+    },
+    "emisorPIC": {
+      "nombre": "ÖAMTC / ARBÖ / VCÖ",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "BMEIA - Driving & Toll Roads",
+        "url": "https://www.bmeia.gv.at/en/austrian-embassy-ottawa/travel-information-on-austria/driving-toll-roads",
+        "consultado": "2026-10-22"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "U.S. Embassy in Austria - Motoring/Driver’s License",
+        "url": "https://at.usembassy.gov/motoring-driving-law",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "oesterreich.gv.at - International driving licence",
+        "url": "https://www.oesterreich.gv.at/en/themen/mobilitaet/kfz/9/1/Seite.063503",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Work in Austria - Foreign Driving License Conversion",
+        "url": "https://www.workinaustria.com/en/employees/your-personal-guide/relocation/foreign-driving-license-conversion",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "oesterreich.gv.at - Foreign driving licences – conversion",
+        "url": "https://www.oesterreich.gv.at/en/themen/persoenliche_dokumente_und_bestaetigungen/fuehrerschein/3/Seite.040500",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "obligatorio",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "AZ",
@@ -645,29 +681,54 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Bélgica es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Bélgica no exige por ley el Permiso Internacional de Conducir a turistas temporarios si la licencia extranjera es válida, aunque algunas empresas de alquiler de autos pueden solicitarlo. Se aceptan los modelos de las convenciones de Ginebra de 1949 y Viena de 1968.",
+    "detalles": [
+      "Los turistas pueden conducir temporalmente con su licencia nacional extranjera válida.",
+      "El Permiso Internacional de Conducir es recomendado y algunas compañías de alquiler de vehículos pueden exigirlo.",
+      "Bélgica reconoce los convenios internacionales de tránsito de Ginebra de 1949 y Viena de 1968.",
+      "Para estancias superiores a 185 días o al establecer residencia oficial en el país, se aplican restricciones y es necesario realizar trámites locales o canje.",
+      "El documento internacional sirve como una traducción oficial en varios idiomas para facilitar controles con autoridades locales."
+    ],
     "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "185 días para residentes o hasta finalizar la condición de visitante temporal",
+    "autoridadTransito": {
+      "nombre": "SPF Mobilité / FOD Mobiliteit en Vervoer",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Administración municipal local (Commune / Gemeente)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "U.S. Embassy in Belgium — Driver's License",
+        "url": "https://be.usembassy.gov/drivers-license",
+        "consultado": "2026-10-22"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Belgium IDP Information",
+        "url": "https://internationaldrivingpermit.org/country/belgium",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Belgium Handbook — International Driving Permits and Non-EU License Restrictions",
+        "url": "https://belgiumhandbook.com/international-driving-permits-and-non-eu-license-restrictions",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "BZ",
@@ -1959,9 +2020,10 @@
       }
     ],
     "actualizado": null,
-    "ultimaRevision": null,
+    "ultimaRevision": "2026-10-22",
     "verificado": false,
-    "historial": []
+    "historial": [],
+    "ultimoError": "Todos los modelos de Gemini fallaron. Último error: Gemini 503 (gemini-3.6-flash): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
   },
   {
     "iso2": "DM",
@@ -2141,24 +2203,60 @@
       "ginebra1949": true,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Emiratos Árabes Unidos es parte de la Convención de Ginebra de 1949 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1949. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
-    "convencionAceptada": "1949",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "requisito": "obligatorio",
+    "resumen": "Emiratos Árabes Unidos exige a los turistas que utilicen el Permiso Internacional de Conducir (PIC) junto con su licencia nacional para conducir o alquilar vehículos. El país es parte de las convenciones de Ginebra de 1949 y de Viena de 1968.",
+    "detalles": [
+      "El Permiso Internacional de Conducir es obligatorio por ley y es requerido habitualmente por las empresas de alquiler de vehículos en el país.",
+      "El PIC modelo 1949 tiene una validez de un año, mientras que el de la convención de 1968 se extiende hasta tres años, condicionado siempre a la vigencia de la licencia nacional.",
+      "Para los visitantes y turistas, el uso de la licencia extranjera junto con el PIC está permitido durante la estadía temporal como turista.",
+      "Las licencias emitidas en países del Mercosur (como Argentina y Uruguay) requieren obligatoriamente el PIC para poder circular y alquilar autos legalmente.",
+      "Conducir sin la documentación adecuada o incumplir las estrictas normas de tránsito locales puede derivar en multas severas, retención del vehículo o acciones legales."
+    ],
+    "convencionAceptada": "ambas",
+    "estadiaMaxima": "Valedero durante el período de visita o turismo (sujeto a las normas de visado)",
+    "autoridadTransito": {
+      "nombre": "Roads & Transport Authority (RTA)",
+      "url": "https://www.rta.ae"
+    },
+    "emisorPIC": {
+      "nombre": "Automobile and Touring Club of the UAE (ATCUAE)",
+      "url": "https://atcuae.ae",
+      "telefono": "+971 42 961122"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Remitly — Can Foreigners Drive in the UAE?",
+        "url": "https://www.remitly.com/blog/travel/can-foreigners-drive-in-the-uae",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "ATCUAE — IDL- International Driving License",
+        "url": "https://atcuae.ae/idl-international-driving-license",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "International Driving Permit — United Arab Emirates",
+        "url": "https://internationaldrivingpermit.org/country/united-arab-emirates",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Assist 365 — Países que exigen licencia de conducir internacional (PCI)",
+        "url": "https://assist-365.com/blog/ar/paises-que-exigen-licencia-de-conducir-internacional",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "obligatorio",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "ER",
@@ -2896,24 +2994,55 @@
       "ginebra1949": true,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Guatemala es parte de la Convención de Ginebra de 1949 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1949. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Guatemala permite a los turistas conducir con su licencia nacional durante el periodo de validez de su visa de turista, aunque se recomienda llevar el Permiso Internacional de Conducir como valioso elemento de traducción y para facilitar los controles en carretera o los trámites con rentadoras.",
+    "detalles": [
+      "Las licencias extranjeras y del Mercosur permiten conducir legalmente mientras la visa de turista permanezca vigente.",
+      "El Permiso Internacional de Conducir no es obligatorio por ley para estancias cortas, pero actúa como una útil ayuda de traducción en controles policiales.",
+      "Para conducir después de los primeros treinta días, algunas fuentes oficiales sugieren la obtención de un permiso temporal emitido por la autoridad local.",
+      "Es obligatorio llevar siempre en el vehículo la licencia nacional original, el contrato de alquiler, la póliza de seguro y la tarjeta de circulación.",
+      "El Departamento de Tránsito de la Policía Nacional Civil es el organismo encargado de regular el tránsito y emitir permisos en el país."
+    ],
     "convencionAceptada": "1949",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "Hasta 90 días (según la vigencia de la visa de turista)",
+    "autoridadTransito": {
+      "nombre": "Departamento de Tránsito de la Policía Nacional Civil",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Automóvil Club o entidad emisora autorizada del país de origen",
+      "url": null,
+      "telefono": "(502) 2320-4545"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Enterprise Rent A Car Costa Rica — Guatemala Driving Laws & Traffic Rules for Tourists: FAQs",
+        "url": "https://www.enterprise.gt/post-en/guatemala-driving-laws-traffic-rules-for-tourists-faqs",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Embajada de Estados Unidos en Guatemala — Drivers Licenses",
+        "url": "https://gt.usembassy.gov/driver-licenses",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Embajada de Estados Unidos en Guatemala — Licencias de Conducir",
+        "url": "https://gt.usembassy.gov/es/drivers-licenses-es",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "GN",
@@ -3508,29 +3637,65 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Israel es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Israel permite a los turistas conducir con una licencia extranjera válida por hasta un año desde su ingreso. Aunque el Ministerio de Transporte suele aceptar licencias en inglés, las agencias de alquiler y las autoridades recomiendan llevar también el Permiso Internacional de Conducir como traducción.",
+    "detalles": [
+      "Los turistas pueden manejar con su licencia nacional extranjera durante un plazo máximo de un año desde la fecha de entrada al país.",
+      "El Permiso Internacional de Conducir (PIC) actúa como un documento de traducción complementario y se aconseja portarlo junto con la licencia original y el pasaporte.",
+      "Israel ratificó las Convenciones de Ginebra de 1949 y de Viena de 1968, por lo que reconoce ambos modelos de PIC.",
+      "Las licencias y los permisos deben coincidir con la categoría del vehículo conducido y el titular debe cumplir con la edad mínima legal en Israel, que es de 17 años para automóviles particulares.",
+      "Las empresas de alquiler de vehículos y las aseguradoras suelen solicitar la presentación del permiso internacional para agilizar los controles y la entrega de unidades."
+    ],
     "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "1 año",
+    "autoridadTransito": {
+      "nombre": "Ministry of Transport and Road Safety",
+      "url": "https://internationaldrivingpermit.org/country/israel"
+    },
+    "emisorPIC": {
+      "nombre": "A&T Club of Israel – MEMSI",
+      "url": "https://internationaldrivingpermit.org/country/israel",
+      "telefono": "+972-9-8616470"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Remitly — Can Foreigners Drive in Israel?",
+        "url": "https://www.remitly.com/blog/travel/can-foreigners-drive-in-israel",
+        "consultado": "2026-10-22"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Tamir Rental — Driving in Israel - Essential Tourist Rules, Tolls & Tips",
+        "url": "https://tamir-rental.com/driving-in-israel-tips-for-tourists",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "AACI — Driving in Israel",
+        "url": "https://aaci.org.il/driving-in-israel",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "HUJI International — Israeli Driver’s License",
+        "url": "https://international.huji.ac.il/israeli-driver%E2%80%99s-license",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "International Driving Permit — Israel - International Driving Permit",
+        "url": "https://internationaldrivingpermit.org/country/israel",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "IT",
@@ -4485,29 +4650,80 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Marruecos es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Marruecos permite a los turistas conducir con una licencia extranjera válida por hasta un año. Aunque la ley no siempre exige de forma estricta el Permiso Internacional de Conducir (PIC) si la licencia está en caracteres latinos, se recomienda llevarlo para evitar inconvenientes en controles policiales o con agencias de alquiler.",
+    "detalles": [
+      "Los turistas pueden conducir con su licencia nacional durante un plazo máximo de hasta 12 meses desde la fecha de ingreso.",
+      "Marruecos es parte de las convenciones de Ginebra de 1949 y de Viena de 1968, por lo que reconoce los PIC asociados a ambos modelos según el organismo emisor.",
+      "Para licencias de Argentina, Uruguay y otros países del Mercosur, se recomienda portar el PIC debido a que facilita la lectura ante las autoridades locales (que operan principalmente en árabe y francés).",
+      "Las empresas de alquiler de vehículos pueden solicitar requisitos adicionales, como un tiempo mínimo de posesión de la licencia o exigir el PIC según sus políticas internas.",
+      "Es obligatorio llevar siempre la licencia física original junto al pasaporte; no se aceptan copias digitales ni permisos provisorios.",
+      "Los controles policiales en carreteras son frecuentes, por lo que contar con la documentación traducida previene demoras o multas."
+    ],
     "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "12 meses",
+    "autoridadTransito": {
+      "nombre": "Agence Nationale de la Sécurité Routière (NARSA)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Touring Club du Maroc (TCM)",
+      "url": "https://internationaldrivingpermit.org/es/country/marruecos"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "E-ITCA — International Driving Permit Morocco",
+        "url": "https://e-itca.org/international-driving-permit-morocco",
+        "consultado": "2026-10-22"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Final Rentals — Morocco Car Rental Licence for Tourists: A Simple Guide",
+        "url": "https://www.finalrentals.ma/blog/single/morocco-car-rental-licence-for-tourists-a-simple-guide",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "MarHire — How to Get an International Driving Permit for Morocco",
+        "url": "https://marhire.com/en/article/how-to-get-an-international-driving-permit-for-morocco",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Holafly — Conducir en Marruecos: requisitos y consejos",
+        "url": "https://esim.holafly.com/es/blog/planificar-viaje/conducir-marruecos",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "DGT — Conducir en el extranjero, permiso internacional",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/validez-de-tu-permiso-permiso-internacional",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "International Driving Permit — Marruecos",
+        "url": "https://internationaldrivingpermit.org/es/country/marruecos",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Carrent Casablanca — Can You Drive in Morocco with a UK License? 2026 Guide",
+        "url": "https://carrentcasablanca.com/drive-in-morocco-with-a-uk-license",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Remitly — Can Foreigners Drive in Morocco?",
+        "url": "https://www.remitly.com/blog/travel/can-foreigners-drive-in-morocco",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "MU",
@@ -5086,29 +5302,54 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Noruega es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "depende",
+    "resumen": "Noruega no exige de forma general el Permiso Internacional de Conducir a los turistas si la licencia extranjera está en inglés, francés o alemán y cumple con los modelos de las convenciones. Sin embargo, el documento se vuelve necesario si la licencia no incluye fotografía, está redactada en un alfabeto distinto al latino (como el cirílico o árabe) o si las autoridades y rentadoras lo solicitan por diferencias en las categorías.",
+    "detalles": [
+      "Los turistas pueden utilizar su licencia extranjera en Noruega por un plazo general de hasta tres meses.",
+      "Noruega es parte firmante de las Convenciones de Ginebra de 1949 y de Viena de 1968.",
+      "Se requiere el Permiso Internacional de Conducir o una traducción jurada si la licencia de conducir no está escrita en alfabeto latino, carece de foto o no sigue los modelos de los convenios internacionales.",
+      "Las empresas de alquiler de vehículos en Noruega pueden solicitar el Permiso Internacional de Conducir como documento complementario.",
+      "Para estancias que se convierten en residencia legal o permanente en Noruega, aplican plazos específicos para el canje de la licencia extranjera."
+    ],
     "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "3 meses",
+    "autoridadTransito": {
+      "nombre": "Statens vegvesen (Administración Pública de Vialidad de Noruega)",
+      "url": "https://www.vegvesen.no/"
+    },
+    "emisorPIC": {
+      "nombre": "Kongelig Norsk Automobilklub (KNA) / Norges Automobil-Forbund (NAF)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Statens vegvesen — Using a driving licence from a non-EU/EEA country in Norway",
+        "url": "https://www.vegvesen.no/en/driving-licences/driving-licence-holders/foreign-driving-licence-in-norway/using-a-non-eueea-driving-licence-in-norway",
+        "consultado": "2026-10-22"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Wikipedia — International Driving Permit",
+        "url": "https://en.wikipedia.org/wiki/International_Driving_Permit",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Remitly — Can Foreigners Drive in Norway?",
+        "url": "https://www.remitly.com/blog/travel/can-foreigners-drive-in-norway",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "depende",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "NZ",
@@ -5683,29 +5924,50 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Puerto Rico no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "requisito": "depende",
+    "resumen": "Puerto Rico es un territorio no incorporado de los Estados Unidos, por lo que las normas para conducir con licencia extranjera dependen de la legislación estadounidense aplicable. Los visitantes temporales pueden utilizar su licencia nacional acompañada por el Permiso Internacional de Conducir (PIC) si es requerido por las autoridades o agencias de alquiler de vehículos.",
+    "detalles": [
+      "Al ser un territorio de los Estados Unidos, las regulaciones de tránsito siguen los lineamientos federales y locales aplicables a visitantes internacionales.",
+      "Se recomienda portar el Permiso Internacional de Conducir junto con la licencia nacional de origen para facilitar la comunicación y cumplir con los requisitos de las rentadoras.",
+      "Los turistas pueden manejar temporalmente con su licencia extranjera y el documento internacional durante estancias cortas.",
+      "Las personas que establecen residencia permanente en Puerto Rico deben tramitar una licencia local a través del sistema CESCO dentro de los plazos establecidos.",
+      "El modelo aceptado y las pautas generales de validez se rigen por los estándares internacionales reconocidos en EE. UU.",
+      "Las compañías de alquiler de autos pueden exigir de manera particular la presentación conjunta de la licencia nacional y el PIC."
+    ],
+    "convencionAceptada": "desconocido",
+    "estadiaMaxima": "Para estadías cortas o turismo temporal",
+    "autoridadTransito": {
+      "nombre": "CESCO (Comisión para la Seguridad en el Tránsito / DTOP Puerto Rico)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Automobile Association of America (AAA) / American Automobile Touring Alliance (AATA)",
+      "url": "https://www.aaa.com"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Christie's Real Estate PR — How to Get a Puerto Rico Driver's License as a Newcomer",
+        "url": "https://christiesrealestatepr.com/blog/getting-your-puerto-rico-drivers-license",
+        "consultado": "2026-10-22"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "USAGov — Driving in the U.S. if you are not a citizen",
+        "url": "https://www.usa.gov/non-citizen-driving",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "depende",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "GB",
@@ -6508,29 +6770,55 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Sudáfrica es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "depende",
+    "resumen": "Sudáfrica permite a los turistas conducir con una licencia extranjera válida, pero exige el Permiso Internacional de Conducir (PIC) u otra traducción oficial si la licencia no está redactada en inglés. El país reconoce tanto la Convención de Ginebra de 1949 como la de Viena de 1968.",
+    "detalles": [
+      "Si la licencia de conducir extranjera está redactada en inglés, no es obligatorio presentar el Permiso Internacional de Conducir.",
+      "Si la licencia no está en inglés, el Permiso Internacional de Conducir es necesario para evitar confusiones en controles y alquiler de vehículos.",
+      "El PIC y la licencia nacional original deben llevarse siempre juntos, ya que el documento internacional no es válido por sí solo.",
+      "Sudáfrica ratificó las convenciones de tránsito de Ginebra (1949) y de Viena (1968).",
+      "Las empresas de alquiler de autos y las aseguradoras pueden establecer sus propias exigencias sobre la antigüedad de la licencia."
+    ],
     "convencionAceptada": "ambas",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Department of Transport of South Africa",
+      "url": "https://www.gov.za"
+    },
+    "emisorPIC": {
+      "nombre": "Automobile Association of South Africa (AASA)",
+      "url": "https://aa.co.za/travel/international-driving-permit",
+      "telefono": "0861 000 234"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "The Automobile Association of South Africa — International Driving Permit",
+        "url": "https://aa.co.za/travel/international-driving-permit",
+        "consultado": "2026-10-22"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "IBN Immigration Solutions — Driving in South Africa: Essential Guide for Foreigners",
+        "url": "https://www.ibn.co.za/blog-and-news/driving-in-south-africa-guide",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "South African Government — Convert foreign driving licence",
+        "url": "https://www.gov.za/services/driving/driving-licence/convert-foreign-driving-licence",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "depende",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "SD",
@@ -7116,29 +7404,61 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Turquía es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "depende",
+    "resumen": "En Turquía, el Permiso Internacional de Conducir depende del alfabeto en el que esté emitida la licencia extranjera. Si la licencia está en alfabeto latino, moderno y con foto, no es obligatorio para turistas de corta estadía; sin embargo, se recomienda o exige si la licencia utiliza otro alfabeto (como árabe o cirílico) o si lo solicitan las empresas de alquiler de autos.",
+    "detalles": [
+      "Los turistas pueden conducir con una licencia extranjera válida por un periodo máximo de hasta 6 meses desde su fecha de ingreso.",
+      "El Permiso Internacional de Conducir (PIC) es obligatorio si la licencia nacional no está redactada en alfabeto latino.",
+      "Turquía es parte de la Convención de Ginebra de 1949 y de la Convención de Viena de 1968.",
+      "Las licencias del Mercosur (como las de Argentina o Uruguay) suelen requerir una traducción certificada o el PIC si las autoridades de control o las rentadoras lo solicitan.",
+      "Las empresas de alquiler de autos pueden exigir el PIC o una traducción oficial junto con la licencia principal según sus políticas internas.",
+      "Una vez superado el plazo de residencia o los 6 meses de estancia, los extranjeros deben tramitar y convertir su licencia a un permiso de conducir turco."
+    ],
     "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "6 meses",
+    "autoridadTransito": {
+      "nombre": "Dirección General de Seguridad (Emniyet Genel Müdürlüğü)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Asociación de Touring y Automóviles de Turquía (TTOK)",
+      "url": "https://turing.tr/en/international-driver-permit",
+      "telefono": "+90 (212) 282 81 40"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Auris Rent a Car — Do You Need an IDP to Drive in Turkey?",
+        "url": "https://auriscars.net/en/blog/do-i-need-international-driving-permit-turkey",
+        "consultado": "2026-10-22"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Türkiye Turing ve Otomobil Kurumu — International Driver Permit",
+        "url": "https://turing.tr/en/international-driver-permit",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Izmircar — Which Countries' Driving Licenses Are Valid in Turkey?",
+        "url": "https://www.izmircar.com/blog/faydali-bilgiler/turkiyede-hangi-ulkelerin-ehliyeti-gecerlidir-vfv1c3",
+        "consultado": "2026-10-22"
+      },
+      {
+        "titulo": "Remitly — Can Foreigners Drive in Turkey?",
+        "url": "https://www.remitly.com/blog/travel/can-foreigners-drive-in-turkey",
+        "consultado": "2026-10-22"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-10-22",
+    "ultimaRevision": "2026-10-22",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-10-22",
+        "requisito": "depende",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "TV",
