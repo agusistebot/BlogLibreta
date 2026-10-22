@@ -98,9 +98,9 @@ async function main() {
   const fuentes = path.join(DIST, 'assets/fonts');
   fs.mkdirSync(fuentes, { recursive: true });
   for (const [pkg, archivo] of [
-    ['@fontsource-variable/overpass', 'overpass-latin-wght-normal.woff2'],
-    ['@fontsource-variable/source-serif-4', 'source-serif-4-latin-wght-normal.woff2'],
-    ['@fontsource-variable/source-serif-4', 'source-serif-4-latin-wght-italic.woff2'],
+    ['@fontsource-variable/figtree', 'figtree-latin-wght-normal.woff2'],
+    ['@fontsource-variable/public-sans', 'public-sans-latin-wght-normal.woff2'],
+    ['@fontsource-variable/public-sans', 'public-sans-latin-wght-italic.woff2'],
   ]) {
     fs.copyFileSync(path.join(ROOT, 'node_modules', pkg, 'files', archivo), path.join(fuentes, archivo));
   }
@@ -186,7 +186,7 @@ ${posts
       ['og/default.png', { titulo: 'Permiso Internacional de Conducir, país por país', etiqueta: 'Libreta internacional', subtitulo: 'Convenciones de la ONU, requisitos por país y road trips' }],
       ...paises.map((p) => [`og/paises/${p.slug}.png`, { titulo: `Permiso internacional en ${p.nombre}`, etiqueta: (ESTADOS[p.requisito] || ESTADOS['sin-verificar']).label, subtitulo: '¿Lo piden para manejar? Requisitos y fuentes oficiales' }]),
       ...convenciones.map((c) => [`og/convenciones-onu/${c.slug}.png`, { titulo: c.nombre, etiqueta: c.organismo, subtitulo: 'Artículos sobre el permiso internacional, resumidos' }]),
-      ...posts.map((p) => [`og/blog/${p.slug}.png`, { titulo: p.titulo, etiqueta: 'Road trip', subtitulo: p.paisNombre ? `${p.paisNombre} en auto` : '', color: '#1c6a46' }]),
+      ...posts.map((p) => [`og/blog/${p.slug}.png`, { titulo: p.titulo, etiqueta: 'Road trip', subtitulo: p.paisNombre ? `${p.paisNombre} en auto` : '', color: '#01717c' }]),
     ];
     for (let i = 0; i < tareas.length; i += 16) {
       await Promise.all(

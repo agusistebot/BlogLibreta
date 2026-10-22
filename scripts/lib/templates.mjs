@@ -135,6 +135,9 @@ const SPRITE = `<svg width="0" height="0" style="position:absolute" aria-hidden=
 <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 4.5h16a1.5 1.5 0 0 1 1.5 1.5v9.5A1.5 1.5 0 0 1 20 17H10l-5 4v-4H4a1.5 1.5 0 0 1-1.5-1.5V6A1.5 1.5 0 0 1 4 4.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
 <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
 <symbol id="i-tel" viewBox="0 0 24 24"><path d="M6.6 3.5h3l1.5 4.2-2 1.4a11 11 0 0 0 5.8 5.8l1.4-2 4.2 1.5v3A2 2 0 0 1 18.4 20 15.4 15.4 0 0 1 4 5.6a2 2 0 0 1 2.6-2.1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 10.6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="7.4" r="1.25" fill="currentColor"/></symbol>
+<symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 2.8h8.2L19 7.6v12.1a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 5 19.7V4.3A1.5 1.5 0 0 1 6.5 2.8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m8.6 14.2 2.3 2.3 4.6-4.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.2" y="4.6" width="17.6" height="16" rx="1.8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.2 9.4h17.6M8 2.8v3.6M16 2.8v3.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m9 14.6 2 2 4-4.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
 </svg>`;
 
 const ICONO_CONTACTO = { whatsapp: 'i-chat', email: 'i-mail', telefono: 'i-tel' };
@@ -248,8 +251,8 @@ export function layout({
     `<meta name="format-detection" content="telephone=no">`,
     `<link rel="icon" href="${u('/favicon.svg')}" type="image/svg+xml">`,
     `<link rel="apple-touch-icon" href="${u('/apple-touch-icon.png')}">`,
-    `<link rel="preload" href="${u('/assets/fonts/overpass-latin-wght-normal.woff2')}" as="font" type="font/woff2" crossorigin>`,
-    `<link rel="preload" href="${u('/assets/fonts/source-serif-4-latin-wght-normal.woff2')}" as="font" type="font/woff2" crossorigin>`,
+    `<link rel="preload" href="${u('/assets/fonts/figtree-latin-wght-normal.woff2')}" as="font" type="font/woff2" crossorigin>`,
+    `<link rel="preload" href="${u('/assets/fonts/public-sans-latin-wght-normal.woff2')}" as="font" type="font/woff2" crossorigin>`,
     `<link rel="stylesheet" href="${u('/assets/site.css')}?v=${versionAssets}">`,
     `<link rel="alternate" type="application/rss+xml" title="Road trips — ${esc(SITE.name)}" href="${abs('/feed.xml')}">`,
     ...jsonld.map(ld),
@@ -265,11 +268,20 @@ ${meta}
 <body data-root="${raiz()}" data-suffix="${SITE.linkMode === 'relative' ? 'index.html' : ''}">
 <a class="skip" href="#contenido">Saltar al contenido</a>
 ${SPRITE}
-<header class="cover">
-<div class="cover-inner">
-<a class="brand" href="${u('/')}" aria-label="${esc(SITE.name)}, inicio"><span class="oval" aria-hidden="true">PIC</span><span class="brand-name">Permiso Internacional de Conducir<span class="brand-sub">La libreta internacional, país por país</span></span></a>
-<nav class="nav" aria-label="Secciones">${nav}</nav>
+<div class="topbar">
+<div class="wrap topbar-inner">
+<p><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-info"></use></svg>Guía informativa independiente sobre el Permiso Internacional de Conducir</p>
 </div>
+</div>
+<header class="masthead">
+<div class="wrap masthead-inner">
+<a class="brand" href="${u('/')}" aria-label="${esc(SITE.name)}, inicio"><img class="brand-emblem" src="${u('/assets/emblema.svg')}" alt="" width="74" height="60"><span class="brand-name"><span class="brand-l1">Permiso Internacional</span> <span class="brand-l2">de Conducir</span><span class="brand-sub">La libreta internacional, país por país</span></span></a>
+<ul class="masthead-meta">
+<li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-doc"></use></svg>Fuentes oficiales citadas</li>
+<li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-cal"></use></svg>Fichas revisadas cada semana</li>
+</ul>
+</div>
+<nav class="nav" aria-label="Secciones"><div class="wrap nav-inner">${nav}</div></nav>
 </header>
 <div class="layout">
 <main id="contenido">
@@ -280,8 +292,9 @@ ${columnaEmpresas(empresas)}
 </aside>
 </div>
 <footer class="contratapa">
-<div class="contratapa-inner">
-<div>
+<div class="wrap contratapa-inner">
+<div class="contratapa-marca">
+<img class="footer-emblem" src="${u('/assets/emblema.svg')}" alt="" width="62" height="50" loading="lazy" decoding="async">
 <h2>Permiso Internacional de Conducir</h2>
 <p>Guía independiente sobre la libreta internacional de conducir. No pertenece a la ONU, a ningún gobierno ni a los automóvil clubes mencionados.</p>
 <p>Las fichas de países se revisan automáticamente cada semana con fuentes citadas.${actualizacion ? ` Última actualización: ${fechaLarga(actualizacion)}.` : ''}</p>
@@ -310,6 +323,12 @@ ${columnaEmpresas(empresas)}
 <li><a href="${u('/acerca/')}">Cómo hacemos las fichas</a></li>
 <li><a href="${u('/aviso-legal/')}">Aviso legal y privacidad</a></li>
 </ul>
+</div>
+</div>
+<div class="contratapa-base">
+<div class="wrap">
+<p>© ${new Date().getUTCFullYear()} ${esc(SITE.domain)}</p>
+<p>Información de carácter general. Antes de viajar, confirmá los requisitos con la autoridad de tránsito o el consulado del país de destino.</p>
 </div>
 </div>
 </footer>

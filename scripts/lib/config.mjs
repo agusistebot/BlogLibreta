@@ -19,7 +19,7 @@ export const SITE = {
   linkMode: process.env.LINK_MODE || 'absolute',
   lang: 'es',
   ogLocale: 'es_LA',
-  themeColor: '#4b525a',
+  themeColor: '#012448',
   description:
     'Todo sobre el Permiso Internacional de Conducir (libreta internacional): qué dicen las convenciones de la ONU, si lo piden en cada país, dónde tramitarlo y road trips por el mundo.',
 };
