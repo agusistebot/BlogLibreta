@@ -1,55 +1,307 @@
 {
   "_nota": "Cola de rutas para el post semanal. Cada semana se toma la primera sin usar; cuando se terminan, Claude propone una ruta nueva que no esté en esta lista. Una ruta usada nunca se vuelve a escribir.",
   "rutas": [
-    { "id": "ruta-40-argentina", "ruta": "Ruta Nacional 40, de La Quiaca a Cabo Vírgenes", "pais": "AR", "usado": "2026-10-21", "post": "ruta-40-argentina-road-trip" },
-    { "id": "costa-oceanica-uruguay", "ruta": "Costa oceánica de Uruguay por la Ruta 10 y la Ruta 9: de Punta del Este al Chuy", "pais": "UY", "usado": null },
-    { "id": "carretera-austral-chile", "ruta": "Carretera Austral (Ruta 7) de Puerto Montt a Villa O'Higgins", "pais": "CL", "usado": null },
-    { "id": "ruta-66-estados-unidos", "ruta": "Ruta 66 de Chicago a Santa Mónica", "pais": "US", "usado": null },
-    { "id": "ring-road-islandia", "ruta": "Ring Road (Ruta 1) alrededor de Islandia", "pais": "IS", "usado": null },
-    { "id": "pacific-coast-highway", "ruta": "Pacific Coast Highway de San Francisco a Los Ángeles", "pais": "US", "usado": null },
-    { "id": "costa-amalfitana-italia", "ruta": "Costa Amalfitana y Campania en auto", "pais": "IT", "usado": null },
-    { "id": "pueblos-blancos-andalucia", "ruta": "Ruta de los Pueblos Blancos de Andalucía", "pais": "ES", "usado": null },
-    { "id": "great-ocean-road-australia", "ruta": "Great Ocean Road de Melbourne a Warrnambool", "pais": "AU", "usado": null },
-    { "id": "isla-sur-nueva-zelanda", "ruta": "Isla Sur de Nueva Zelanda: de Christchurch a Queenstown por la costa oeste", "pais": "NZ", "usado": null },
-    { "id": "wild-atlantic-way-irlanda", "ruta": "Wild Atlantic Way en la costa oeste de Irlanda", "pais": "IE", "usado": null },
-    { "id": "north-coast-500-escocia", "ruta": "North Coast 500 en las Tierras Altas de Escocia", "pais": "GB", "usado": null },
-    { "id": "estrada-real-brasil", "ruta": "Estrada Real de Minas Gerais a Paraty", "pais": "BR", "usado": null },
-    { "id": "costa-verde-brasil", "ruta": "Costa Verde de Río de Janeiro a Paraty y Ubatuba", "pais": "BR", "usado": null },
-    { "id": "provenza-francia", "ruta": "Provenza y la Costa Azul en auto", "pais": "FR", "usado": null },
-    { "id": "dolomitas-italia", "ruta": "Gran Ruta de las Dolomitas", "pais": "IT", "usado": null },
-    { "id": "ruta-romantica-alemania", "ruta": "Ruta Romántica de Wurzburgo a Füssen", "pais": "DE", "usado": null },
-    { "id": "grand-tour-suiza", "ruta": "Grand Tour of Switzerland", "pais": "CH", "usado": null },
-    { "id": "atlantic-road-noruega", "ruta": "Fiordos de Noruega y la Atlantic Road", "pais": "NO", "usado": null },
-    { "id": "nacional-2-portugal", "ruta": "Estrada Nacional 2, de Chaves a Faro", "pais": "PT", "usado": null },
-    { "id": "costa-dalmata-croacia", "ruta": "Costa dálmata de Zadar a Dubrovnik", "pais": "HR", "usado": null },
-    { "id": "peloponeso-grecia", "ruta": "Vuelta al Peloponeso", "pais": "GR", "usado": null },
-    { "id": "capadocia-turquia", "ruta": "Costa turquesa y Capadocia", "pais": "TR", "usado": null },
-    { "id": "atlas-marruecos", "ruta": "De Marrakech al desierto por el Atlas y el valle del Draa", "pais": "MA", "usado": null },
-    { "id": "garden-route-sudafrica", "ruta": "Garden Route de Ciudad del Cabo a Port Elizabeth", "pais": "ZA", "usado": null },
-    { "id": "namibia-desierto", "ruta": "Namibia: de Windhoek a Sossusvlei y Swakopmund", "pais": "NA", "usado": null },
-    { "id": "icefields-parkway-canada", "ruta": "Icefields Parkway de Banff a Jasper", "pais": "CA", "usado": null },
-    { "id": "cabot-trail-canada", "ruta": "Cabot Trail en Nueva Escocia", "pais": "CA", "usado": null },
-    { "id": "baja-california-mexico", "ruta": "Baja California de Tijuana a Los Cabos por la Carretera Federal 1", "pais": "MX", "usado": null },
-    { "id": "yucatan-mexico", "ruta": "Península de Yucatán: cenotes, Mérida y Bacalar", "pais": "MX", "usado": null },
-    { "id": "costa-rica-pacifico", "ruta": "Costa Rica: de San José a Guanacaste y la península de Nicoya", "pais": "CR", "usado": null },
-    { "id": "eje-cafetero-colombia", "ruta": "Eje Cafetero de Colombia: Salento, Filandia y Manizales", "pais": "CO", "usado": null },
-    { "id": "valle-sagrado-peru", "ruta": "Valle Sagrado y el sur andino del Perú", "pais": "PE", "usado": null },
-    { "id": "ruta-del-spondylus-ecuador", "ruta": "Ruta del Spondylus en la costa de Ecuador", "pais": "EC", "usado": null },
-    { "id": "salar-uyuni-bolivia", "ruta": "Sur de Bolivia: de Tupiza al Salar de Uyuni", "pais": "BO", "usado": null },
-    { "id": "siete-lagos-argentina", "ruta": "Ruta de los Siete Lagos de San Martín de los Andes a Villa La Angostura", "pais": "AR", "usado": null },
-    { "id": "ruta-del-vino-mendoza", "ruta": "Caminos del vino de Mendoza y el Valle de Uco", "pais": "AR", "usado": null },
-    { "id": "paraguay-misiones-jesuiticas", "ruta": "Paraguay de Asunción a Encarnación y las misiones jesuíticas", "pais": "PY", "usado": null },
-    { "id": "transfagarasan-rumania", "ruta": "Transfăgărășan y Transilvania", "pais": "RO", "usado": null },
-    { "id": "hokkaido-japon", "ruta": "Hokkaido en auto: Sapporo, Furano y Shiretoko", "pais": "JP", "usado": null },
-    { "id": "tasmania-australia", "ruta": "Vuelta a Tasmania", "pais": "AU", "usado": null },
-    { "id": "norte-tailandia", "ruta": "Bucle de Mae Hong Son en el norte de Tailandia", "pais": "TH", "usado": null },
-    { "id": "emiratos-montanas", "ruta": "De Dubái a Jebel Jais y la costa de Fujairah", "pais": "AE", "usado": null },
-    { "id": "parques-nacionales-utah", "ruta": "Parques nacionales de Utah: Zion, Bryce y Arches", "pais": "US", "usado": null },
-    { "id": "florida-keys", "ruta": "Overseas Highway de Miami a Key West", "pais": "US", "usado": null },
-    { "id": "puerto-rico-isla", "ruta": "Vuelta a Puerto Rico por la costa", "pais": "PR", "usado": null },
-    { "id": "republica-dominicana-samana", "ruta": "República Dominicana: de Santo Domingo a Samaná", "pais": "DO", "usado": null },
-    { "id": "cuba-occidente", "ruta": "Occidente de Cuba: Viñales y la costa norte", "pais": "CU", "usado": null },
-    { "id": "panama-azuero", "ruta": "Península de Azuero en Panamá", "pais": "PA", "usado": null },
-    { "id": "paises-bajos-tulipanes", "ruta": "Holanda en auto: campos de tulipanes y pueblos del norte", "pais": "NL", "usado": null }
+    {
+      "id": "ruta-40-argentina",
+      "ruta": "Ruta Nacional 40, de La Quiaca a Cabo Vírgenes",
+      "pais": "AR",
+      "usado": "2026-10-21",
+      "post": "ruta-40-argentina-road-trip"
+    },
+    {
+      "id": "costa-oceanica-uruguay",
+      "ruta": "Costa oceánica de Uruguay por la Ruta 10 y la Ruta 9: de Punta del Este al Chuy",
+      "pais": "UY",
+      "usado": "2026-10-26",
+      "post": "costa-oceanica-uruguay-ruta-10-ruta-9-punta-del-este-chuy"
+    },
+    {
+      "id": "carretera-austral-chile",
+      "ruta": "Carretera Austral (Ruta 7) de Puerto Montt a Villa O'Higgins",
+      "pais": "CL",
+      "usado": null
+    },
+    {
+      "id": "ruta-66-estados-unidos",
+      "ruta": "Ruta 66 de Chicago a Santa Mónica",
+      "pais": "US",
+      "usado": null
+    },
+    {
+      "id": "ring-road-islandia",
+      "ruta": "Ring Road (Ruta 1) alrededor de Islandia",
+      "pais": "IS",
+      "usado": null
+    },
+    {
+      "id": "pacific-coast-highway",
+      "ruta": "Pacific Coast Highway de San Francisco a Los Ángeles",
+      "pais": "US",
+      "usado": null
+    },
+    {
+      "id": "costa-amalfitana-italia",
+      "ruta": "Costa Amalfitana y Campania en auto",
+      "pais": "IT",
+      "usado": null
+    },
+    {
+      "id": "pueblos-blancos-andalucia",
+      "ruta": "Ruta de los Pueblos Blancos de Andalucía",
+      "pais": "ES",
+      "usado": null
+    },
+    {
+      "id": "great-ocean-road-australia",
+      "ruta": "Great Ocean Road de Melbourne a Warrnambool",
+      "pais": "AU",
+      "usado": null
+    },
+    {
+      "id": "isla-sur-nueva-zelanda",
+      "ruta": "Isla Sur de Nueva Zelanda: de Christchurch a Queenstown por la costa oeste",
+      "pais": "NZ",
+      "usado": null
+    },
+    {
+      "id": "wild-atlantic-way-irlanda",
+      "ruta": "Wild Atlantic Way en la costa oeste de Irlanda",
+      "pais": "IE",
+      "usado": null
+    },
+    {
+      "id": "north-coast-500-escocia",
+      "ruta": "North Coast 500 en las Tierras Altas de Escocia",
+      "pais": "GB",
+      "usado": null
+    },
+    {
+      "id": "estrada-real-brasil",
+      "ruta": "Estrada Real de Minas Gerais a Paraty",
+      "pais": "BR",
+      "usado": null
+    },
+    {
+      "id": "costa-verde-brasil",
+      "ruta": "Costa Verde de Río de Janeiro a Paraty y Ubatuba",
+      "pais": "BR",
+      "usado": null
+    },
+    {
+      "id": "provenza-francia",
+      "ruta": "Provenza y la Costa Azul en auto",
+      "pais": "FR",
+      "usado": null
+    },
+    {
+      "id": "dolomitas-italia",
+      "ruta": "Gran Ruta de las Dolomitas",
+      "pais": "IT",
+      "usado": null
+    },
+    {
+      "id": "ruta-romantica-alemania",
+      "ruta": "Ruta Romántica de Wurzburgo a Füssen",
+      "pais": "DE",
+      "usado": null
+    },
+    {
+      "id": "grand-tour-suiza",
+      "ruta": "Grand Tour of Switzerland",
+      "pais": "CH",
+      "usado": null
+    },
+    {
+      "id": "atlantic-road-noruega",
+      "ruta": "Fiordos de Noruega y la Atlantic Road",
+      "pais": "NO",
+      "usado": null
+    },
+    {
+      "id": "nacional-2-portugal",
+      "ruta": "Estrada Nacional 2, de Chaves a Faro",
+      "pais": "PT",
+      "usado": null
+    },
+    {
+      "id": "costa-dalmata-croacia",
+      "ruta": "Costa dálmata de Zadar a Dubrovnik",
+      "pais": "HR",
+      "usado": null
+    },
+    {
+      "id": "peloponeso-grecia",
+      "ruta": "Vuelta al Peloponeso",
+      "pais": "GR",
+      "usado": null
+    },
+    {
+      "id": "capadocia-turquia",
+      "ruta": "Costa turquesa y Capadocia",
+      "pais": "TR",
+      "usado": null
+    },
+    {
+      "id": "atlas-marruecos",
+      "ruta": "De Marrakech al desierto por el Atlas y el valle del Draa",
+      "pais": "MA",
+      "usado": null
+    },
+    {
+      "id": "garden-route-sudafrica",
+      "ruta": "Garden Route de Ciudad del Cabo a Port Elizabeth",
+      "pais": "ZA",
+      "usado": null
+    },
+    {
+      "id": "namibia-desierto",
+      "ruta": "Namibia: de Windhoek a Sossusvlei y Swakopmund",
+      "pais": "NA",
+      "usado": null
+    },
+    {
+      "id": "icefields-parkway-canada",
+      "ruta": "Icefields Parkway de Banff a Jasper",
+      "pais": "CA",
+      "usado": null
+    },
+    {
+      "id": "cabot-trail-canada",
+      "ruta": "Cabot Trail en Nueva Escocia",
+      "pais": "CA",
+      "usado": null
+    },
+    {
+      "id": "baja-california-mexico",
+      "ruta": "Baja California de Tijuana a Los Cabos por la Carretera Federal 1",
+      "pais": "MX",
+      "usado": null
+    },
+    {
+      "id": "yucatan-mexico",
+      "ruta": "Península de Yucatán: cenotes, Mérida y Bacalar",
+      "pais": "MX",
+      "usado": null
+    },
+    {
+      "id": "costa-rica-pacifico",
+      "ruta": "Costa Rica: de San José a Guanacaste y la península de Nicoya",
+      "pais": "CR",
+      "usado": null
+    },
+    {
+      "id": "eje-cafetero-colombia",
+      "ruta": "Eje Cafetero de Colombia: Salento, Filandia y Manizales",
+      "pais": "CO",
+      "usado": null
+    },
+    {
+      "id": "valle-sagrado-peru",
+      "ruta": "Valle Sagrado y el sur andino del Perú",
+      "pais": "PE",
+      "usado": null
+    },
+    {
+      "id": "ruta-del-spondylus-ecuador",
+      "ruta": "Ruta del Spondylus en la costa de Ecuador",
+      "pais": "EC",
+      "usado": null
+    },
+    {
+      "id": "salar-uyuni-bolivia",
+      "ruta": "Sur de Bolivia: de Tupiza al Salar de Uyuni",
+      "pais": "BO",
+      "usado": null
+    },
+    {
+      "id": "siete-lagos-argentina",
+      "ruta": "Ruta de los Siete Lagos de San Martín de los Andes a Villa La Angostura",
+      "pais": "AR",
+      "usado": null
+    },
+    {
+      "id": "ruta-del-vino-mendoza",
+      "ruta": "Caminos del vino de Mendoza y el Valle de Uco",
+      "pais": "AR",
+      "usado": null
+    },
+    {
+      "id": "paraguay-misiones-jesuiticas",
+      "ruta": "Paraguay de Asunción a Encarnación y las misiones jesuíticas",
+      "pais": "PY",
+      "usado": null
+    },
+    {
+      "id": "transfagarasan-rumania",
+      "ruta": "Transfăgărășan y Transilvania",
+      "pais": "RO",
+      "usado": null
+    },
+    {
+      "id": "hokkaido-japon",
+      "ruta": "Hokkaido en auto: Sapporo, Furano y Shiretoko",
+      "pais": "JP",
+      "usado": null
+    },
+    {
+      "id": "tasmania-australia",
+      "ruta": "Vuelta a Tasmania",
+      "pais": "AU",
+      "usado": null
+    },
+    {
+      "id": "norte-tailandia",
+      "ruta": "Bucle de Mae Hong Son en el norte de Tailandia",
+      "pais": "TH",
+      "usado": null
+    },
+    {
+      "id": "emiratos-montanas",
+      "ruta": "De Dubái a Jebel Jais y la costa de Fujairah",
+      "pais": "AE",
+      "usado": null
+    },
+    {
+      "id": "parques-nacionales-utah",
+      "ruta": "Parques nacionales de Utah: Zion, Bryce y Arches",
+      "pais": "US",
+      "usado": null
+    },
+    {
+      "id": "florida-keys",
+      "ruta": "Overseas Highway de Miami a Key West",
+      "pais": "US",
+      "usado": null
+    },
+    {
+      "id": "puerto-rico-isla",
+      "ruta": "Vuelta a Puerto Rico por la costa",
+      "pais": "PR",
+      "usado": null
+    },
+    {
+      "id": "republica-dominicana-samana",
+      "ruta": "República Dominicana: de Santo Domingo a Samaná",
+      "pais": "DO",
+      "usado": null
+    },
+    {
+      "id": "cuba-occidente",
+      "ruta": "Occidente de Cuba: Viñales y la costa norte",
+      "pais": "CU",
+      "usado": null
+    },
+    {
+      "id": "panama-azuero",
+      "ruta": "Península de Azuero en Panamá",
+      "pais": "PA",
+      "usado": null
+    },
+    {
+      "id": "paises-bajos-tulipanes",
+      "ruta": "Holanda en auto: campos de tulipanes y pueblos del norte",
+      "pais": "NL",
+      "usado": null
+    }
   ]
 }
