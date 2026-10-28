@@ -1,20 +1,20 @@
 {
-  "ultimaEjecucion": "2026-10-26T16:50:18.982Z",
+  "ultimaEjecucion": "2026-10-28T16:08:32.154Z",
   "modelo": "gemini-3.5-flash-lite + Tavily",
   "paisesActualizados": [
-    "MT",
-    "MC",
-    "RO",
-    "SG",
-    "VE",
-    "AD",
-    "SA",
-    "BS",
-    "BZ",
-    "BG"
+    "QA",
+    "CY",
+    "SK",
+    "EE",
+    "HK",
+    "JM",
+    "KE",
+    "LV",
+    "LT",
+    "ME"
   ],
   "errores": [],
-  "post": "costa-oceanica-uruguay-ruta-10-ruta-9-punta-del-este-chuy",
+  "post": null,
   "cortado": false,
   "semana": {
     "id": "2026-W44",
@@ -28,10 +28,26 @@
       "SA",
       "BS",
       "BZ",
-      "BG"
+      "BG",
+      "QA",
+      "CY",
+      "SK",
+      "EE",
+      "HK",
+      "JM",
+      "KE",
+      "LV",
+      "LT",
+      "ME"
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-10-28T16:08:32.154Z",
+      "paises": 10,
+      "errores": 0,
+      "post": null
+    },
     {
       "fecha": "2026-10-26T16:50:18.982Z",
       "paises": 10,
