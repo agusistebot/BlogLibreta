@@ -1,47 +1,49 @@
 {
-  "ultimaEjecucion": "2026-10-28T16:08:32.154Z",
+  "ultimaEjecucion": "2026-11-02T20:24:54.743Z",
   "modelo": "gemini-3.5-flash-lite + Tavily",
   "paisesActualizados": [
-    "QA",
-    "CY",
-    "SK",
-    "EE",
-    "HK",
-    "JM",
-    "KE",
-    "LV",
-    "LT",
-    "ME"
+    "NI",
+    "OM",
+    "LK",
+    "TW",
+    "TZ",
+    "TN",
+    "AG",
+    "BB",
+    "BA",
+    "BW"
   ],
-  "errores": [],
+  "errores": [
+    {
+      "post": "carretera-austral-chile",
+      "error": "La respuesta no contiene un JSON válido.",
+      "pasajero": false
+    }
+  ],
   "post": null,
   "cortado": false,
   "semana": {
-    "id": "2026-W44",
+    "id": "2026-W45",
     "paises": [
-      "MT",
-      "MC",
-      "RO",
-      "SG",
-      "VE",
-      "AD",
-      "SA",
-      "BS",
-      "BZ",
-      "BG",
-      "QA",
-      "CY",
-      "SK",
-      "EE",
-      "HK",
-      "JM",
-      "KE",
-      "LV",
-      "LT",
-      "ME"
+      "NI",
+      "OM",
+      "LK",
+      "TW",
+      "TZ",
+      "TN",
+      "AG",
+      "BB",
+      "BA",
+      "BW"
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-11-02T20:24:54.743Z",
+      "paises": 10,
+      "errores": 1,
+      "post": null
+    },
     {
       "fecha": "2026-10-28T16:08:32.154Z",
       "paises": 10,
