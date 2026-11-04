@@ -5727,28 +5727,47 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Maldivas no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "resumen": "Maldivas no figura en los registros de la ONU como parte de las convenciones de Ginebra (1949) ni de Viena (1968). Las fuentes oficiales consultadas no especifican claramente si se exige el Permiso Internacional de Conducir (PIC) a los turistas extranjeros.",
+    "detalles": [
+      "Maldivas no es parte firmante de la Convención de Ginebra de 1949 ni de la Convención de Viena de 1968 en el registro de tratados de la ONU.",
+      "Las fuentes oficiales disponibles no detallan los requisitos específicos de validez para licencias de conducir extranjeras, incluidas las de países del Mercosur.",
+      "La infraestructura vial para automóviles en Maldivas se limita únicamente a unas pocas islas, ya que el transporte principal en el archipiélago se realiza por barco o hidroavión.",
+      "Se recomienda consultar directamente con la embajada o consulado de Maldivas antes de viajar si se planea conducir."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Ministerio de Transporte y Aviación Civil de Maldivas",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Sin información oficial disponible",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "GOV.UK — Maldives travel advice: Safety and security",
+        "url": "https://www.gov.uk/foreign-travel-advice/maldives/safety-and-security",
+        "consultado": "2026-11-04"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Government of Canada — Maldives travel advice",
+        "url": "https://travel.gc.ca/destinations/maldives",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "ML",
@@ -5937,29 +5956,60 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Mauricio no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "requisito": "depende",
+    "resumen": "En Mauricio, los turistas pueden conducir con su licencia nacional durante un máximo de cuatro semanas sin necesidad de un Permiso Internacional de Conducir (PIC), siempre que el documento esté redactado en inglés o francés. Si la licencia está en otro idioma o la estadía se prolonga más de un mes, se requiere contar con el PIC o realizar trámites locales.",
+    "detalles": [
+      "Los turistas pueden manejar con su licencia nacional extranjera durante un período máximo de 4 semanas desde su llegada.",
+      "Mauricio reconoce la Convención sobre la Circulación Vial de Ginebra de 1949 y acepta el modelo de PIC correspondiente.",
+      "Si la licencia no está en inglés o francés, se recomienda portar el PIC o una traducción certificada para evitar inconvenientes en controles policiales o con empresas de alquiler de autos.",
+      "Para estancias superiores a 4 semanas, es obligatorio tramitar una extensión o conversión en la Policía de Mauricio, o haber obtenido el PIC en el país de origen.",
+      "Las normas de tránsito locales exigen el uso del cinturón de seguridad, la prohibición de usar el teléfono celular en la mano y circular por el lado izquierdo de la vía.",
+      "Las multas por infracciones como exceso de velocidad, conducir bajo los efectos del alcohol o no usar el cinturón son estrictamente aplicadas."
+    ],
+    "convencionAceptada": "ambas",
+    "estadiaMaxima": "4 semanas",
+    "autoridadTransito": {
+      "nombre": "Mauritius Police Force – Traffic Branch",
+      "url": "https://police.govmu.org"
+    },
+    "emisorPIC": {
+      "nombre": "Mauritius Police Force – Traffic Branch (Licensing Office)",
+      "url": "https://police.govmu.org"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Autocloud.mu — Driving in Mauritius as a Foreigner: What Licence Do You Need?",
+        "url": "https://autocloud.mu/blog/guides/driving-in-mauritius-as-a-foreigner-what-licence-do-you-need-534",
+        "consultado": "2026-11-04"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Mauritius International Driving Permit Information",
+        "url": "https://internationaldrivingpermit.org/country/mauritius",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "Maki Car Rental — Do tourists need an International Driving Permit for Mauritius?",
+        "url": "https://www.maki-car-rental.com/rent-a-car/faq/mauritius-international-driving-permit.html",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "Mauritius Police Force — Application for Driving Licence",
+        "url": "https://police.govmu.org/police?page_id=5578",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "depende",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "MR",
@@ -6199,23 +6249,43 @@
       "viena1968": true
     },
     "requisito": "sin-verificar",
-    "resumen": "Mongolia es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "resumen": "No se encontraron fuentes oficiales suficientes para determinar si Mongolia exige de forma obligatoria el Permiso Internacional de Conducir a turistas extranjeros.",
+    "detalles": [
+      "Mongolia es parte de la Convención de Viena de 1968.",
+      "El modelo de PIC aceptado corresponde a la Convención de Viena de 1968.",
+      "No hay datos verificados sobre la exigencia específica para licencias de Uruguay, Argentina u otros países del Mercosur.",
+      "No se dispone de información oficial sobre la estadía máxima permitida para manejar con licencia extranjera.",
+      "Las fuentes disponibles no detallan normativas vigentes sobre rentadoras o multas para turistas en Mongolia."
+    ],
     "convencionAceptada": "1968",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Sin verificar",
+      "url": "https://internationaldrivingpermit.org/country/mongolia"
+    },
+    "emisorPIC": {
+      "nombre": "Sin verificar",
+      "url": "https://internationaldrivingpermit.org/country/mongolia"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Mongolia",
+        "url": "https://internationaldrivingpermit.org/country/mongolia",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "ME",
@@ -6284,29 +6354,54 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Mozambique no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Mozambique no está adherido formalmente a las convenciones de Ginebra de 1949 ni de Viena de 1968 en los registros de la ONU, pero las fuentes oficiales y guías de viaje reconocen licencias extranjeras y recomiendan portar el Permiso Internacional de Conducir junto con el documento nacional para facilitar la traducción y evitar inconvenientes.",
+    "detalles": [
+      "Las fuentes de información internacional indican que las licencias extranjeras y el Permiso Internacional de Conducir son reconocidos en territorio mozambiqueño.",
+      "El Permiso Internacional de Conducir no reemplaza a la licencia nacional, por lo que ambos documentos deben presentarse de manera conjunta.",
+      "Para turistas y conductores temporarios, el uso del permiso internacional ayuda a superar barreras idiomáticas ante las autoridades locales o empresas de alquiler de vehículos.",
+      "Se aconseja verificar los requisitos vigentes con las autoridades consulares o de turismo antes de iniciar el viaje, ya que la normativa interna regula el tránsito para no residentes.",
+      "Es obligatorio contar con seguro de responsabilidad civil para vehículos y la documentación legal del rodado en regla al circular por el país."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Instituto Nacional de Transportes Terrestres (INATTER)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Automóbil e Touring Clube de Moçambique (ATCM)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Mozambique Tourism Advisory Service — Border requirements and documents for Mozambique",
+        "url": "https://www.moztour.com/mozambique.htm",
+        "consultado": "2026-11-04"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "ICT Administration — International Driving Permit",
+        "url": "https://ictadministration.gov.pk/international-driving-permit",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "American Automobile Touring Alliance — IDP Country List",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "MM",
@@ -6441,28 +6536,43 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Nepal no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "resumen": "Nepal no figura como parte de las convenciones de Ginebra de 1949 ni de Viena de 1968 en los registros oficiales, por lo que las exigencias para conductores extranjeros dependen de su legislación interna. No se dispone de fuentes oficiales concluyentes para verificar si el Permiso Internacional de Conducir es obligatorio para turistas de Argentina, Uruguay u otros países.",
+    "detalles": [
+      "Nepal no está ratificado en las convenciones internacionales de tránsito de 1949 y 1968 según los registros de tratados.",
+      "Las reglas para manejar con licencia extranjera dependen de la normativa local interna del país.",
+      "No se encontraron fuentes oficiales que confirmen el estatus exacto ni la exigencia del PIC para visitantes de Sudamérica.",
+      "Se recomienda consultar directamente con la embajada o consulado de Nepal antes de viajar para verificar la documentación exigida a los turistas.",
+      "Las empresas de alquiler de vehículos o aseguradoras locales podrían solicitar requisitos adicionales de manera particular."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Department of Transport Management (DoTM)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Nepal Automobile Association (NASA Nepal)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
-      },
-      {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Nepal International Driving Permit Information",
+        "url": "https://internationaldrivingpermit.org/country/nepal",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "NI",
@@ -7677,29 +7787,55 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Rusia es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "obligatorio",
+    "resumen": "En Rusia, los turistas extranjeros pueden conducir utilizando su licencia nacional siempre que esté acompañada por una traducción oficial al ruso notariada o por un Permiso Internacional de Conducir válido. Las normativas exigen portar esta documentación complementaria para circular de manera legal durante la estancia temporal.",
+    "detalles": [
+      "Rusia reconoce tanto el modelo de la Convención de Ginebra de 1949 como el de Viena de 1968.",
+      "Para los turistas, la validez de la licencia extranjera junto con el permiso o la traducción se extiende durante toda la estancia temporal (generalmente hasta 6 meses).",
+      "Es obligatorio presentar el Permiso Internacional de Conducir o la traducción oficial en conjunto con la licencia nacional original.",
+      "El incumplimiento de las normativas de conducción o la falta de documentación válida puede acarrear multas severas según el código administrativo ruso.",
+      "La autoridad nacional encargada del tránsito y control vial es el GIBDD (Inspección Estatal de Seguridad Vial).",
+      "Los residentes permanentes o temporales tienen la obligación de canjear su licencia por un documento ruso tras un año de obtener dicho estatus."
+    ],
     "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "Hasta 6 meses (duración de la estancia temporal)",
+    "autoridadTransito": {
+      "nombre": "GIBDD (State Traffic Safety Inspectorate)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Ministerio del Interior (MVD) a través del GIBDD",
+      "url": "https://internationaldrivingpermit.org/country/russian-federation"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Expat Focus — Russia Driving Licenses",
+        "url": "https://www.expatfocus.com/russia/guide/russia-driving-licenses",
+        "consultado": "2026-11-04"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Russian Federation",
+        "url": "https://internationaldrivingpermit.org/country/russian-federation",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "U.S. Embassy & Consulates in Russia — Driving Your Car in Russia",
+        "url": "https://ru.usembassy.gov/driving-your-car-in-russia",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "obligatorio",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "WS",
@@ -7802,9 +7938,11 @@
       }
     ],
     "actualizado": null,
-    "ultimaRevision": null,
+    "ultimaRevision": "2026-11-04",
     "verificado": false,
-    "historial": []
+    "historial": [],
+    "ultimoError": "Ninguna fuente citada apareció en los resultados de búsqueda.",
+    "fallos": 1
   },
   {
     "iso2": "VC",
@@ -7922,29 +8060,60 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Senegal es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Senegal reconoce el Permiso Internacional de Conducir y este resulta útil para turistas extranjeros que manejan con licencia de su país. Aunque algunas fuentes indican que no es estrictamente obligatorio para estancias cortas, se aconseja portarlo junto con la licencia nacional para evitar inconvenientes en controles.",
+    "detalles": [
+      "Senegal acepta el Permiso Internacional de Conducir conforme a convenios internacionales de tránsito.",
+      "Se recomienda llevar el documento impreso junto con la licencia de conducir nacional vigente.",
+      "El permiso facilita la comunicación y la gestión ante autoridades locales, agencias de alquiler de vehículos y aseguradoras.",
+      "El país permite la entrada a turistas sin visa por períodos de hasta 90 días, plazo habitual para estancias temporarias.",
+      "Las fuentes oficiales aconsejan precaución al conducir, especialmente debido a condiciones de seguridad y restricciones viales en ciertas regiones.",
+      "No se dispone en las fuentes de un organismo emisor local específico para residentes de Senegal ni de una autoridad nacional de tránsito detallada."
+    ],
     "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "90 días",
+    "autoridadTransito": {
+      "nombre": "Ministerio de Infraestructuras, Transporte Terrestre y Aéreo",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Automobile Club du Sénégal",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Permit Online — International Driving Permit Senegal",
+        "url": "https://internationalpermitonline.com/countries/international-driving-permit-senegal",
+        "consultado": "2026-11-04"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Fast IDP — Do you need an IDP to drive in Senegal if you are from",
+        "url": "https://www.fastidp.com/country/senegal",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "American Automobile Touring Alliance — Countries",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "Travel.State.gov — Senegal Travel Advisory",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/senegal.html",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "RS",
@@ -7957,29 +8126,60 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Serbia es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Serbia permite a los turistas conducir con una licencia extranjera válida durante estancias temporales, aunque se recomienda llevar el Permiso Internacional de Conducir (PIC) como traducción oficial para facilitar controles policiales y trámites con rentadoras.",
+    "detalles": [
+      "El Permiso Internacional de Conducir actúa como un documento de traducción adjunto a la licencia nacional y es aconsejable cuando el formato o idioma del permiso extranjero no es familiar para las autoridades.",
+      "Para estancias temporales, la normativa permite utilizar la licencia extranjera vigente, pero si se obtiene la residencia permanente o temporal prolongada, existen plazos específicos (como el límite de 12 meses tras la residencia) para realizar el canje.",
+      "Las empresas de alquiler de vehículos suelen solicitar el permiso internacional junto con la licencia de conducir del país de origen.",
+      "Es obligatorio cumplir con las normas locales de tránsito, circular con las luces bajas encendidas durante el día y llevar equipo de invierno entre el 1 de noviembre y el 1 de abril.",
+      "Para los ciudadanos españoles, la Dirección General de Tráfico señala la existencia de un acuerdo bilateral de reconocimiento con Serbia, aunque el uso del PIC sigue siendo recomendado en el extranjero."
+    ],
     "convencionAceptada": "ambas",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Ministerio de Asuntos Exteriores de la República de Serbia",
+      "url": "https://www.mfa.gov.rs"
+    },
+    "emisorPIC": {
+      "nombre": "Auto-Moto Association of Serbia (AMSS)",
+      "url": null,
+      "telefono": "+381 11 3331 200"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Relocation Serbia — Driving in Serbia as a Foreigner 2026",
+        "url": "https://www.relocationserbia.com/driving-in-serbia-as-a-foreigner-registration-insurance-and-more",
+        "consultado": "2026-11-04"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Welcome to Serbia — Driver's license and motor vehicle insurance",
+        "url": "http://welcometoserbia.gov.rs/driver-s-license-and-motor-vehicle-insurance",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "Ministry of Foreign Affairs — Driving license and vehicle insurance",
+        "url": "https://www.mfa.gov.rs/en/citizens/travel-abroad/driver-s-license-and-motor-vehicle-insurance",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "DGT España — Conducir en el extranjero, permiso internacional",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/validez-de-tu-permiso-permiso-internacional",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "SC",
@@ -7992,24 +8192,50 @@
       "ginebra1949": false,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Seychelles es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Seychelles forma parte de la Convención de Viena de 1968 y acepta el Permiso Internacional de Conducir (PIC) de ese modelo. Aunque el sitio oficial de transporte menciona que se puede tramitar una licencia local temporal (Seychelles Driving Licence) por una tarifa de 500 rupias, se recomienda llevar el PIC junto con la licencia nacional para facilitar la circulación y los trámites con rentadoras.",
+    "detalles": [
+      "Seychelles es Estado parte de la Convención de Viena de 1968 sobre Circulación Vial.",
+      "El país cuenta con un trámite local para obtener una licencia de conducir temporal por un año con un costo de 500 rupias seychellenses.",
+      "Llevar el Permiso Internacional de Conducir (PIC) previene barreras idiomáticas ante las autoridades locales o empresas de alquiler de vehículos.",
+      "El PIC nunca reemplaza a la licencia nacional, por lo que ambos documentos deben presentarse de manera conjunta.",
+      "Las empresas de alquiler de autos y aseguradoras pueden solicitar el PIC o exigir requisitos específicos de antigüedad y edad mínima.",
+      "Se sugiere consultar previamente con la compañía rentadora y las autoridades consulares vigentes antes de iniciar el viaje."
+    ],
     "convencionAceptada": "1968",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "1 año (según la validez de la habilitación local o condiciones de estancia turística)",
+    "autoridadTransito": {
+      "nombre": "Seychelles Licensing Authority (SLA)",
+      "url": "https://www.sla.gov.sc/international-driving-license"
+    },
+    "emisorPIC": {
+      "nombre": "Automóvil Club o autoridad competente del país de origen de la licencia",
+      "url": "https://www.sla.gov.sc/international-driving-license"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Seychelles Licensing Authority — International Driving License",
+        "url": "https://www.sla.gov.sc/international-driving-license",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "Wikipedia — International Driving Permit",
+        "url": "https://en.wikipedia.org/wiki/International_Driving_Permit",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "SL",
@@ -8869,24 +9095,51 @@
       "ginebra1949": true,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Trinidad y Tobago es parte de la Convención de Ginebra de 1949 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1949. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Trinidad y Tobago permite a los turistas conducir con una licencia extranjera válida de un país signatario de la Convención de Ginebra durante un plazo máximo de 90 días. Aunque la normativa básica exige la licencia del país de origen junto al pasaporte, se recomienda llevar el Permiso Internacional de Conducir (PIC) para evitar barreras idiomáticas ante las autoridades o empresas de alquiler.",
+    "detalles": [
+      "Los visitantes extranjeros pueden manejar por un período de hasta 90 días desde su fecha de llegada utilizando su licencia nacional de origen.",
+      "El país reconoce y aplica la Convención de Ginebra sobre la Circulación Vial de 1949.",
+      "El Permiso Internacional de Conducir (PIC) funciona exclusivamente como un documento complementario y debe presentarse siempre junto con la licencia nacional.",
+      "Las empresas de alquiler de vehículos y las autoridades locales pueden solicitar el PIC para facilitar la interpretación de los datos de licencias extranjeras.",
+      "Para estancias de larga duración o empleo remunerado, es obligatorio tramitar un permiso de conducir local tras rendir el examen correspondiente.",
+      "La entidad nacional encargada de la emisión del PIC en Trinidad y Tobago es la asociación automovilística oficial del país."
+    ],
     "convencionAceptada": "1949",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "90 días",
+    "autoridadTransito": {
+      "nombre": "Licensing Division, Ministry of Works and Transport (MOWT)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Trinidad & Tobago Automobile Association (TTAA)",
+      "url": "https://www.facebook.com/ttaa.official/videos/the-trinidad-and-tobago-automobile-association-ttaa-is-the-only-authorized-natio/2659647804199275",
+      "telefono": "+1 (868) 299-2421"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Expat Focus — Trinidad and Tobago - Driving Licenses",
+        "url": "https://www.expatfocus.com/trinidad-and-tobago/guide/trinidad-and-tobago-driving-licenses",
+        "consultado": "2026-11-04"
+      },
+      {
+        "titulo": "International Driving Permit — Trinidad and Tobago",
+        "url": "https://internationaldrivingpermit.org/country/trinidad-and-tobago",
+        "consultado": "2026-11-04"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-04",
+    "ultimaRevision": "2026-11-04",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-04",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "TN",

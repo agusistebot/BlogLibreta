@@ -1,19 +1,24 @@
 {
-  "ultimaEjecucion": "2026-11-04T14:45:54.779Z",
+  "ultimaEjecucion": "2026-11-04T14:59:11.191Z",
   "modelo": "gemini-3.5-flash-lite + Tavily",
   "paisesActualizados": [
-    "KH",
-    "FJ",
-    "GE",
-    "GY",
-    "LA",
-    "LB",
-    "LI",
-    "MO",
-    "MK",
-    "MG"
+    "MV",
+    "MU",
+    "MN",
+    "MZ",
+    "NP",
+    "RU",
+    "SN",
+    "RS",
+    "SC",
+    "TT"
   ],
   "errores": [
+    {
+      "pais": "SM",
+      "error": "Ninguna fuente citada apareció en los resultados de búsqueda.",
+      "pasajero": false
+    },
     {
       "post": "carretera-austral-chile",
       "error": "La respuesta no contiene un JSON válido.",
@@ -44,10 +49,26 @@
       "LI",
       "MO",
       "MK",
-      "MG"
+      "MG",
+      "MV",
+      "MU",
+      "MN",
+      "MZ",
+      "NP",
+      "RU",
+      "SN",
+      "RS",
+      "SC",
+      "TT"
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-11-04T14:59:11.191Z",
+      "paises": 10,
+      "errores": 2,
+      "post": null
+    },
     {
       "fecha": "2026-11-04T14:45:54.779Z",
       "paises": 10,
