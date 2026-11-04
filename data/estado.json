@@ -1,31 +1,20 @@
 {
-  "ultimaEjecucion": "2026-11-04T14:59:11.191Z",
+  "ultimaEjecucion": "2026-11-04T15:12:12.694Z",
   "modelo": "gemini-3.5-flash-lite + Tavily",
   "paisesActualizados": [
-    "MV",
-    "MU",
-    "MN",
-    "MZ",
-    "NP",
-    "RU",
-    "SN",
-    "RS",
-    "SC",
-    "TT"
+    "SM",
+    "UA",
+    "ZM",
+    "ZW",
+    "VA",
+    "DM",
+    "GD",
+    "GQ",
+    "HT",
+    "KN"
   ],
-  "errores": [
-    {
-      "pais": "SM",
-      "error": "Ninguna fuente citada apareció en los resultados de búsqueda.",
-      "pasajero": false
-    },
-    {
-      "post": "carretera-austral-chile",
-      "error": "La respuesta no contiene un JSON válido.",
-      "pasajero": false
-    }
-  ],
-  "post": null,
+  "errores": [],
+  "post": "carretera-austral-en-auto-guia-ruta-7-chile",
   "cortado": false,
   "semana": {
     "id": "2026-W45",
@@ -59,10 +48,26 @@
       "SN",
       "RS",
       "SC",
-      "TT"
+      "TT",
+      "SM",
+      "UA",
+      "ZM",
+      "ZW",
+      "VA",
+      "DM",
+      "GD",
+      "GQ",
+      "HT",
+      "KN"
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-11-04T15:12:12.694Z",
+      "paises": 10,
+      "errores": 0,
+      "post": "carretera-austral-en-auto-guia-ruta-7-chile"
+    },
     {
       "fecha": "2026-11-04T14:59:11.191Z",
       "paises": 10,
