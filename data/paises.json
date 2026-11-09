@@ -10,29 +10,49 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Afganistán no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "requisito": "depende",
+    "resumen": "Afganistán no es parte de las convenciones de tránsito de la ONU, y tras los recientes cambios políticos las autoridades locales no han emitido posturas claras sobre el uso del Permiso Internacional de Conducir. Aunque algunas fuentes internacionales y agencias de alquiler lo sugieren o consideran aceptado bajo prácticas previas, la exigencia real varía y se recomienda consultar las directivas vigentes antes de viajar.",
+    "detalles": [
+      "Afganistán no figura como país firmante en el registro de tratados de la ONU para las convenciones de Ginebra de 1949 ni Viena de 1968.",
+      "El Departamento de Tránsito del Ministerio del Interior figura en registros internacionales como la autoridad responsable, pero la estabilidad política actual genera incertidumbre.",
+      "Las agencias de alquiler de vehículos y las normativas de aseguradoras pueden solicitar el Permiso Internacional de Conducir como documento complementario a la licencia nacional.",
+      "No existen datos oficiales consolidados sobre la aceptación específica de licencias emitidas en países del Mercosur como Argentina o Uruguay.",
+      "Se aconseja a los turistas extremar precauciones debido al contexto de seguridad y a las restricciones de viaje vigentes en el país."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Traffic Department of the Ministry of Interior Affairs",
+      "url": "https://internationaldrivingpermit.org/country/afghanistan"
+    },
+    "emisorPIC": {
+      "nombre": "Traffic Department of the Ministry of Interior Affairs",
+      "url": "https://internationaldrivingpermit.org/country/afghanistan"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Afghanistan",
+        "url": "https://internationaldrivingpermit.org/country/afghanistan",
+        "consultado": "2026-11-09"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "The Pavlovic Today — These Countries Still Refuse To Recognize International Driving Permits",
+        "url": "https://thepavlovictoday.com/these-countries-still-refuse-to-recognize-international-driving-permits",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "depende",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "AL",
@@ -45,29 +65,60 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Albania es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Albania permite a los turistas conducir con licencias extranjeras en alfabeto latino por hasta un año. Aunque la ley local acepta el permiso nacional si cumple con los estándares internacionales o cuenta con traducción, las agencias de alquiler, las autoridades de control y embajadas extranjeras recomiendan u obligan a portar el Permiso Internacional de Conducir (PIC).",
+    "detalles": [
+      "Albania es parte de las convenciones de Ginebra de 1949 y de Viena de 1968.",
+      "El modelo de PIC aceptado formalmente corresponde al año 1968 según las actualizaciones normativas para el Reino Unido y organismos internacionales.",
+      "Los turistas pueden manejar con su licencia nacional y el PIC por un período máximo de hasta 1 año (12 meses).",
+      "Las licencias de países del Mercosur (como Argentina y Uruguay) escritas en alfabeto latino son comprendidas, pero se aconseja el PIC para evitar inconvenientes con rentadoras o agentes de tránsito.",
+      "El PIC no tiene validez por sí solo y debe presentarse obligatoriamente junto a la licencia nacional de conducir en vigor.",
+      "Algunas empresas de alquiler de vehículos y pólizas de seguro exigen el PIC para cubrir daños ante un eventual siniestro."
+    ],
     "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "1 año",
+    "autoridadTransito": {
+      "nombre": "Dirección General de Servicios de Transporte por Carretera (DPSHTRR)",
+      "url": "https://internationaldrivingpermit.org/country/albania"
+    },
+    "emisorPIC": {
+      "nombre": "Dirección General de Servicios de Transporte por Carretera (DPSHTRR)",
+      "url": "https://internationaldrivingpermit.org/country/albania"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Albania",
+        "url": "https://internationaldrivingpermit.org/country/albania",
+        "consultado": "2026-11-09"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "GOV.UK — Driving abroad: Albania IDP requirements",
+        "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "Holafly — ¿Cómo conducir en Albania siendo extranjero?",
+        "url": "https://esim.holafly.com/es/blog/planificar-viaje/conducir-albania",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "Himara.net — Albania International Driving Permit Guide for Tourists",
+        "url": "https://himara.net/blog/albania-international-driving-permit-guide",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "DE",
@@ -206,29 +257,49 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Angola no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "requisito": "recomendado",
+    "resumen": "Angola es parte de la Convención de Ginebra de 1949, por lo que se recomienda llevar el Permiso Internacional de Conducir junto con la licencia nacional para evitar barreras idiomáticas y facilitar trámites con autoridades o empresas de alquiler de vehículos.",
+    "detalles": [
+      "Angola reconoce el Permiso Internacional de Conducir bajo el modelo de la Convención de Ginebra de 1949.",
+      "El PIC debe presentarse obligatoriamente acompañado de la licencia de conducir nacional vigente.",
+      "Las empresas de alquiler de vehículos o las autoridades locales pueden solicitarlo para verificar datos ante posibles barreras de idioma.",
+      "Para ciudadanos de países como Argentina o Uruguay, contar con el documento previene inconvenientes en controles de tránsito o situaciones de emergencia.",
+      "No se especificó en las fuentes una duración exacta de la estadía máxima permitida para conducir con licencia extranjera."
+    ],
+    "convencionAceptada": "1949",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Ministerio de Transporte de Angola",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Automóvil Club de Angola",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "American Automobile Touring Alliance — Lista de Estados contratantes",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-09"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Wisconsin DMV — Conducir en Wisconsin con licencia extranjera y países de la Convención de Ginebra",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "AG",
@@ -358,24 +429,60 @@
       "ginebra1949": true,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Argelia es parte de la Convención de Ginebra de 1949 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1949. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Argelia recomienda el uso del Permiso Internacional de Conducir (PIC) junto con la licencia nacional para turistas, especialmente si esta última no se encuentra en alfabeto latino. El país es parte de la Convención de Ginebra de 1949.",
+    "detalles": [
+      "Modelo aceptado: Convención de Ginebra de 1949 (formato libreta).",
+      "Las empresas de alquiler de vehículos suelen solicitarlo junto con el pasaporte y la licencia nacional.",
+      "El período máximo de validez para conducir con licencia extranjera y PIC suele ser de tres meses para visitantes.",
+      "El documento es una traducción oficial útil para superar barreras idiomáticas ante las autoridades de tránsito.",
+      "No contar con el permiso al ser requerido en controles puede ocasionar demoras y dificultades con los agentes policiales."
+    ],
     "convencionAceptada": "1949",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "3 meses",
+    "autoridadTransito": {
+      "nombre": "Ministère des Transports",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Touring Club d'Algérie (TCA)",
+      "url": "https://internationaldrivingpermit.org/country/algeria",
+      "telefono": "+213 21 54 19 42"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Best Cars DZ — Renting a Car in Algeria as a Foreigner",
+        "url": "https://bestcarsdz.com/en/blog/documents-location-voiture-algerie",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "International Driving Permit — Algeria",
+        "url": "https://internationaldrivingpermit.org/country/algeria",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "DVLA International Driving Permit Country List",
+        "url": "https://www.paypointbusiness.com/media/2rojoigs/dvla-country-list-2026.pdf",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "International Travel Permits — Permiso de conducir internacional Argelia",
+        "url": "https://internationaltravelpermits.com/es/los-paises/permiso-de-conducir-internacional-argelia",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "AR",
@@ -457,24 +564,54 @@
       "ginebra1949": false,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Armenia es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Armenia acepta licencias extranjeras si cumplen con la Convención de Viena de 1968 o si existe un acuerdo bilateral, pero se recomienda portar el Permiso Internacional de Conducir (PIC) junto con la licencia nacional para evitar barreras idiomáticas y facilitar controles policiales o trámites con rentadoras.",
+    "detalles": [
+      "Armenia es parte de la Convención de Viena de 1968 sobre Circulación Vial y reconoce el modelo de PIC correspondiente a dicha convención.",
+      "Para conducir con una licencia extranjera, esta debe incluir la información en caracteres latinos, categorías con letras y fotografía del titular, o bien contar con un Permiso Internacional de Conducir.",
+      "Las personas extranjeras pueden manejar con su licencia nacional solo si existe un acuerdo mutuo de reconocimiento entre Armenia y el país emisor, o si disponen de un PIC válido.",
+      "El PIC no reemplaza a la licencia nacional, por lo que ambos documentos deben llevarse siempre juntos durante la conducción.",
+      "Las empresas de alquiler de vehículos y las aseguradoras pueden solicitar el Permiso Internacional de Conducir para facilitar la gestión con turistas."
+    ],
     "convencionAceptada": "1968",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Road Police of the Police of the Republic of Armenia",
+      "url": "https://english.hartak.am/guides/foreign-license"
+    },
+    "emisorPIC": {
+      "nombre": "Road Police of the Police of the Republic of Armenia",
+      "url": "https://internationaldrivingpermit.org/country/armenia"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "National Services Gateway — How to drive in Armenia with a foreign driver's license?",
+        "url": "https://english.hartak.am/guides/foreign-license",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "International Driving Permit — Armenia",
+        "url": "https://internationaldrivingpermit.org/country/armenia",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "DVLA International Driving Permit Country List",
+        "url": "https://www.paypointbusiness.com/media/2rojoigs/dvla-country-list-2026.pdf",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "AU",
@@ -613,24 +750,55 @@
       "ginebra1949": false,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Azerbaiyán es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Azerbaiyán es parte de la Convención de Viena de 1968, por lo que acepta el Permiso Internacional de Conducir (PIC) modelo 1968. Si bien las normativas internacionales contemplan el uso de licencias extranjeras compatibles, las empresas de alquiler de vehículos y las autoridades locales suelen recomendar u Ocasionalmente solicitar el PIC junto con la licencia nacional para evitar barreras idiomáticas y facilitar controles.",
+    "detalles": [
+      "Azerbaiyán es país firmante de la Convención de Viena de 1968 sobre Circulación Vial.",
+      "El modelo de Permiso Internacional de Conducir reconocido oficialmente es el correspondiente al año 1968, con una validez general de hasta 3 años o hasta el vencimiento de la licencia nacional.",
+      "Para conducir de forma legal, el PIC debe presentarse obligatoriamente acompañado de la licencia de conducir nacional original y vigente del país de origen.",
+      "Las empresas rentadoras de autos en el destino suelen solicitar el PIC como requisito para la entrega de vehículos a turistas extranjeros.",
+      "Los turistas procedentes de países del Mercosur (como Argentina o Uruguay) deben tramitar el PIC correspondiente en sus respectivos automóviles clubes nacionales antes de viajar.",
+      "Se recomienda verificar siempre los requisitos vigentes con la agencia de alquiler de vehículos o la aerolínea antes de iniciar el viaje a Azerbaiyán."
+    ],
     "convencionAceptada": "1968",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "estadiaMaxima": "90 días",
+    "autoridadTransito": {
+      "nombre": "Ministerio de Transporte de la República de Azerbaiyán",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Automobile Federation of Azerbaijan (FAV)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Grand Rent a Car — What Driving License Do You Need to Rent a Car in Azerbaijan?",
+        "url": "https://grandrent.az/en/blog/what-driving-license-do-you-need-to-rent-a-car-in-azerbaijan-complete-guide-for-foreign-tourists",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "PayPoint Business — International Driving Permit Country List",
+        "url": "https://www.paypointbusiness.com/media/2rojoigs/dvla-country-list-2026.pdf",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "GOV.UK — Driving abroad: Check if you need an international driving permit (IDP)",
+        "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "recomendado",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "BS",
@@ -719,24 +887,55 @@
       "ginebra1949": true,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Bangladés es parte de la Convención de Ginebra de 1949 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1949. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "obligatorio",
+    "resumen": "Bangladés exige a los turistas extranjeros portar el Permiso Internacional de Conducir junto con su licencia nacional para poder manejar legalmente en el país. El país es parte de la Convención de Ginebra de 1949 y acepta el modelo correspondiente.",
+    "detalles": [
+      "Es obligatorio presentar el Permiso Internacional de Conducir (PIC) junto con la licencia de conducir nacional y el pasaporte.",
+      "Bangladés es parte firmante de la Convención sobre la Circulación Vial de Ginebra de 1949.",
+      "El modelo de PIC aceptado y requerido corresponde al de la Convención de Ginebra de 1949.",
+      "Las empresas de alquiler de vehículos y las normativas locales exigen este documento para evitar sanciones o problemas con las autoridades de tránsito.",
+      "Se recomienda llevar siempre la documentación completa, incluyendo la licencia nacional vigente, el PIC y comprobantes de seguro."
+    ],
     "convencionAceptada": "1949",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Bangladesh Road Transport Authority (BRTA)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Automobile Association of Bangladesh (AAB)",
+      "url": "https://www.aabangladesh.com/international-driving-permit",
+      "telefono": "+8802 22222 1342"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "AA Bangladesh — International Driving Permit (IDP)",
+        "url": "https://www.aabangladesh.com/international-driving-permit",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "GOV.UK — Driving abroad: Check if you need an international driving permit (IDP)",
+        "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "Remitly — Can Foreigners Drive in Bangladesh?",
+        "url": "https://www.remitly.com/blog/travel/can-foreigners-drive-in-bangladesh",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "obligatorio",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "BB",
@@ -8132,29 +8331,49 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "San Vicente y las Granadinas no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "requisito": "recomendado",
+    "resumen": "Se recomienda tramitar el Permiso Internacional de Conducir para viajar a San Vicente y las Granadinas. Aunque el país no ha ratificado las convenciones internacionales sobre circulación vial, acepta los formatos de 1949 y 1968, y las compañías de alquiler de vehículos suelen exigir la presentación conjunta de la licencia de conducir nacional y el permiso internacional.",
+    "detalles": [
+      "San Vicente y las Granadinas no figura como Estado parte ratificante de la Convención de Ginebra de 1949 ni de la Convención de Viena de 1968.",
+      "A pesar de no haber ratificado los convenios internacionales, el país reconoce y admite permisos internacionales emitidos bajo los modelos de 1949 y de 1968.",
+      "Las empresas de alquiler de automóviles solicitan a los conductores extranjeros la licencia de conducir nacional de origen acompañada del Permiso Internacional de Conducir (PIC).",
+      "Para el alquiler de vehículos generalmente se exige contar con una edad de entre 21 y 70 años, pasaporte vigente y tarjeta de crédito física a nombre del titular.",
+      "La entidad competente para la expedición de licencias y permisos a nivel local es la Licensing Authority a través del Inland Revenue Department (IRD), organismo que no emite PIC a no residentes ni a personas sin licencia local."
+    ],
+    "convencionAceptada": "ambas",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Licensing Authority / Inland Revenue Department (IRD)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Licensing Authority / Inland Revenue Department (IRD)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Saint Vincent and the Grenadines",
+        "url": "https://internationaldrivingpermit.org/country/saint-vincent-and-the-grenadines",
+        "consultado": "2026-11-09"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "QEEQ — Alquiler de coches en San Vicente y las Granadinas para viajeros estadounidenses",
+        "url": "https://es.qeeq.com/car-rental-guide/10158/united-states-to-saint-vincent-and-the-grenadin",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "recomendado",
+        "origen": "gemini-3.8-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "LC",
@@ -8167,29 +8386,54 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Santa Lucía no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "requisito": "depende",
+    "resumen": "Santa Lucía no requiere obligatoriamente el Permiso Internacional de Conducir (PIC) por ley, ya que su normativa exige a los visitantes obtener un permiso de conducción local temporal, que habitualmente se gestiona a través de las empresas de alquiler de vehículos o la autoridad de transporte. Algunas fuentes indican que las licencias extranjeras en inglés son aceptadas o que el PIC es muy recomendado como documento de apoyo.",
+    "detalles": [
+      "Los visitantes extranjeros suelen requerir un permiso de conducir temporal local para manejar legalmente, el cual puede tramitarse mediante las rentadoras de autos.",
+      "El inglés es el idioma oficial de Santa Lucía, lo que facilita el uso de licencias emitidas en dicho idioma sin requerir traducciones complejas.",
+      "Para los turistas que alquilan vehículos, las agencias de alquiler y las aseguradoras recomiendan contar con el PIC como documento complementario.",
+      "Conducir sin la autorización o el permiso temporal exigido puede acarrear multas o problemas en caso de siniestros viales.",
+      "Las fuentes oficiales internacionales y los registros de tratados de la ONU muestran diversidad de criterios sobre su estatus convencional estricto."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Division of Transport (Ministry responsible for Transport)",
+      "url": "https://internationaldrivingpermit.org/country/saint-lucia"
+    },
+    "emisorPIC": {
+      "nombre": "No emite PIC localmente para no residentes / Entidades extranjeras autorizadas",
+      "url": "https://internationaldrivingpermit.org/country/saint-lucia"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Saint Lucia International Driving Permit Information",
+        "url": "https://internationaldrivingpermit.org/country/saint-lucia",
+        "consultado": "2026-11-09"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Fast IDP — Do you need an IDP to drive in Saint Lucia if you are from the US?",
+        "url": "https://www.fastidp.com/country/saint-lucia",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "International Travel Permits — Guía de conducción en Santa Lucía",
+        "url": "https://internationaltravelpermits.com/es/guias-conduccion-internacional/guia-de-conduccion-en-santa-lucia",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "depende",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "ST",
@@ -8925,29 +9169,55 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Surinam no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "requisito": "obligatorio",
+    "resumen": "Surinam exige el Permiso Internacional de Conducir (PIC) junto con la licencia nacional para los conductores extranjeros. No figura como parte firmante de las convenciones de Ginebra de 1949 ni de Viena de 1968 en los registros de la ONU, pero distintas fuentes oficiales y guías de viaje internacionales confirman que el documento es necesario para circular legalmente o alquilar vehículos en el país.",
+    "detalles": [
+      "Es necesario portar el Permiso Internacional de Conducir junto con la licencia de conducir nacional vigente.",
+      "El país no es parte contratante formal de las convenciones viales de la ONU de 1949 ni de 1968, pero se aceptan o requieren permisos bajo dichos modelos o traducciones oficiales.",
+      "Las agencias de alquiler de vehículos suelen solicitar el PIC para formalizar el contrato de arriendo.",
+      "No contar con la documentación exigida ante un control policial puede derivar en multas severas, sanciones o la inmovilización del vehículo.",
+      "Las licencias de conducir de países del Mercosur (como Argentina o Uruguay) deben presentarse obligatoriamente acompañadas del PIC o de una traducción oficial reconocida.",
+      "Se recomienda verificar los plazos máximos de estadía turística permitida directamente con las autoridades migratorias y de transporte al ingresar al país."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Driving Licences Department of the Suriname Police Force",
+      "url": "https://internationaldrivingpermit.org/country/suriname"
+    },
+    "emisorPIC": {
+      "nombre": "Driving Licences Department of the Suriname Police Force",
+      "url": "https://internationaldrivingpermit.org/country/suriname"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Suriname International Driving Permit Information",
+        "url": "https://internationaldrivingpermit.org/country/suriname",
+        "consultado": "2026-11-09"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Travel Permits — Guía para Conducir en Surinam",
+        "url": "https://internationaltravelpermits.com/es/guias-conduccion-internacional/guia-para-conducir-en-surinam",
+        "consultado": "2026-11-09"
+      },
+      {
+        "titulo": "American Automobile Touring Alliance — List of Contracting States",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-09"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-09",
+    "ultimaRevision": "2026-11-09",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-09",
+        "requisito": "obligatorio",
+        "origen": "gemini-3.5-flash-lite + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "TH",
