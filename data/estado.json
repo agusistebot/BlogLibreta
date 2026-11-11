@@ -1,26 +1,9 @@
 {
-  "ultimaEjecucion": "2026-11-09T20:51:35.854Z",
-  "modelo": "gemini-3.5-flash-lite + Tavily",
-  "paisesActualizados": [
-    "VC",
-    "LC",
-    "SR",
-    "AF",
-    "AL",
-    "AO",
-    "DZ",
-    "AM",
-    "AZ",
-    "BD"
-  ],
-  "errores": [
-    {
-      "post": "ruta-66-estados-unidos",
-      "error": "La respuesta no contiene un JSON válido.",
-      "pasajero": false
-    }
-  ],
-  "post": null,
+  "ultimaEjecucion": "2026-11-11T17:56:47.581Z",
+  "modelo": "gemini-3.6-flash + Tavily",
+  "paisesActualizados": [],
+  "errores": [],
+  "post": "ruta-66-chicago-santa-monica",
   "cortado": false,
   "semana": {
     "id": "2026-W46",
@@ -38,6 +21,12 @@
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-11-11T17:56:47.581Z",
+      "paises": 0,
+      "errores": 0,
+      "post": "ruta-66-chicago-santa-monica"
+    },
     {
       "fecha": "2026-11-09T20:51:35.854Z",
       "paises": 10,
