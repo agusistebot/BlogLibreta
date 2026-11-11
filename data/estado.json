@@ -1,9 +1,20 @@
 {
-  "ultimaEjecucion": "2026-11-11T17:56:47.581Z",
+  "ultimaEjecucion": "2026-11-11T18:28:53.392Z",
   "modelo": "gemini-3.6-flash + Tavily",
-  "paisesActualizados": [],
+  "paisesActualizados": [
+    "BH",
+    "BJ",
+    "BY",
+    "BN",
+    "BF",
+    "BI",
+    "BT",
+    "CV",
+    "CM",
+    "TD"
+  ],
   "errores": [],
-  "post": "ruta-66-chicago-santa-monica",
+  "post": null,
   "cortado": false,
   "semana": {
     "id": "2026-W46",
@@ -17,10 +28,26 @@
       "DZ",
       "AM",
       "AZ",
-      "BD"
+      "BD",
+      "BH",
+      "BJ",
+      "BY",
+      "BN",
+      "BF",
+      "BI",
+      "BT",
+      "CV",
+      "CM",
+      "TD"
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-11-11T18:28:53.392Z",
+      "paises": 10,
+      "errores": 0,
+      "post": null
+    },
     {
       "fecha": "2026-11-11T17:56:47.581Z",
       "paises": 0,

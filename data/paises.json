@@ -1009,24 +1009,48 @@
       "ginebra1949": false,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Baréin es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "depende",
+    "resumen": "En Baréin se requiere el Permiso Internacional de Conducir (modelo 1968) para alquilar vehículos y para estadías que superen los 90 días. El documento debe acompañarse siempre con la licencia nacional de conducir vigente de su país de origen y debe ser certificado por las autoridades locales al ingresar.",
+    "detalles": [
+      "Es obligatorio contar con un Permiso Internacional de Conducir modelo 1968 para el alquiler de vehículos.",
+      "Para permanencias que excedan los 90 días se exige portar el permiso internacional.",
+      "Las normativas locales requieren que los visitantes hagan certificar su permiso internacional ante las autoridades locales al llegar al país.",
+      "El permiso internacional solo es válido si se presenta en conjunto con la licencia nacional física y vigente.",
+      "Baréin figura como estado parte/reconocedor dentro de los convenios internacionales de circulación vial (Viena 1968 / Ginebra 1949)."
+    ],
     "convencionAceptada": "1968",
-    "estadiaMaxima": null,
+    "estadiaMaxima": "90 días",
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "DVLA — International Driving Permit Country List",
+        "url": "https://www.paypointbusiness.com/media/2rojoigs/dvla-country-list-2026.pdf",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "AAA — International Driving Permit Application",
+        "url": "https://www.aaa.com/vacation/idpapplc.html",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "ANA AC — Permiso Internacional Para Conducir en el Extranjero",
+        "url": "https://anaautomovilclubblog.wordpress.com/tag/permiso-internacional-para-conducir-en-el-extranjero",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "depende",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "BE",
@@ -1149,29 +1173,48 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Benín es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "obligatorio",
+    "resumen": "Para conducir en Benín como turista, las autoridades exigen presentar un Permiso Internacional de Conducir junto con la licencia nacional vigente. Benín está vinculado a las convenciones internacionales de tránsito de 1949 y 1968. Para turistas con licencias de Uruguay, Argentina u otros países del Mercosur, el PIC resulta indispensable para certificar y traducir el documento de conducir.",
+    "detalles": [
+      "El portal del Gobierno del Reino Unido (GOV.UK) establece que los conductores extranjeros requieren un Permiso Internacional de Conducir (modelo 1968) para circular en Benín.",
+      "Benín figura reconocido dentro de los convenios internacionales sobre circulación vial de la ONU de 1949 (Ginebra) y 1968 (Viena).",
+      "El Permiso Internacional de Conducir no reemplaza a la licencia nacional; ambos documentos deben presentarse de forma conjunta ante cualquier control o trámite.",
+      "Para ciudadanos del Mercosur (como Argentina y Uruguay), el PIC sirve como la traducción física estandarizada exigida por autoridades y compañías de alquiler de vehículos.",
+      "No se especificó en las fuentes oficiales consultadas un límite máximo exacto de días autorizados para conducir con licencia extranjera bajo la condición de turista."
+    ],
     "convencionAceptada": "ambas",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "GOV.UK — Driving abroad: Check if you need an international driving permit (IDP)",
+        "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+        "consultado": "2026-11-11"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "AAA — International Driving Permit",
+        "url": "https://www.aaa.com/vacation/idpapplc.html",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "Wisconsin Department of Transportation — Driving in Wisconsin with a foreign driver license",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "obligatorio",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "BY",
@@ -1184,24 +1227,49 @@
       "ginebra1949": false,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Bielorrusia es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "depende",
+    "resumen": "Bielorrusia ratificó la Convención de Viena de 1968 sobre la Circulación Vial y reconoce el Permiso Internacional de Conducir (PIC) basado en este convenio. Se exige o recomienda presentar el PIC modelo 1968 junto con la licencia nacional de conducir vigente, especialmente cuando la licencia de origen no está redactada en alfabeto cirílico.",
+    "detalles": [
+      "Bielorrusia es estado parte de la Convención de Viena de 1968 sobre Circulación Vial y acepta el modelo de PIC de 1968.",
+      "El Permiso Internacional de Conducir es un documento complementario y debe acompañarse en todo momento con la licencia nacional física y vigente.",
+      "Para conductores con licencias de Uruguay, Argentina u otros países del Mercosur, el PIC sirve como traducción oficial y evita inconvenientes en controles de tránsito o alquiladoras.",
+      "Los turistas no residentes no pueden tramitar el PIC una vez dentro de Bielorrusia; deben obtenerlo en su país de residencia antes del viaje.",
+      "En Bielorrusia, la autoridad gubernamental encargada de la regulación de tránsito y emisión del PIC a residentes es el Ministerio de Asuntos Internos (MVD)."
+    ],
     "convencionAceptada": "1968",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Ministerio de Asuntos Internos de la República de Bielorrusia (MVD)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Ministerio de Asuntos Internos (MVD)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Belarus",
+        "url": "https://internationaldrivingpermit.org/country/belarus",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "AAA — International Driving Permit Application",
+        "url": "https://www.aaa.com/vacation/idpapplc.html",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "depende",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "BO",
@@ -1460,24 +1528,56 @@
       "ginebra1949": true,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Brunéi es parte de la Convención de Ginebra de 1949 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1949. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Brunéi reconoce el Permiso Internacional de Conducir (PIC) bajo el modelo de la Convención de Ginebra de 1949. Se recomienda a los turistas hispanohablantes portar el PIC junto a la licencia nacional de conducir vigente para alquilar vehículos y manejar sin inconvenientes.",
+    "detalles": [
+      "Brunéi honra y acepta el Permiso Internacional de Conducir modelo 1949.",
+      "El Permiso Internacional de Conducir solo es válido si se presenta acompañado por la licencia de conducir nacional física vigente del país de origen.",
+      "Para conductores con licencias de Uruguay, Argentina o el resto del Mercosur, el PIC sirve como traducción oficial facilitando controles de tránsito y alquiler de autos.",
+      "Los turistas pueden contratar servicios de alquiler de automóviles en el aeropuerto internacional o en los principales hoteles del país.",
+      "La entidad encargada de la regulación de transporte terrestre en el país es el Land Transport Department (Departamento de Transporte Terrestre)."
+    ],
     "convencionAceptada": "1949",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
+    "autoridadTransito": {
+      "nombre": "Land Transport Department of Brunei",
+      "url": null
+    },
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Government of Canada — Brunei travel advice",
+        "url": "https://travel.gc.ca/destinations/brunei",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "American Automobile Touring Alliance — List of Contracting States",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "AAA — International Driving Permit Application",
+        "url": "https://www.aaa.com/vacation/idpapplc.html",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "Wisconsin Department of Transportation — Driving in WI with a foreign DL",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "BG",
@@ -1556,24 +1656,53 @@
       "ginebra1949": true,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Burkina Faso es parte de la Convención de Ginebra de 1949 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1949. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "obligatorio",
+    "resumen": "Burkina Faso exige el Permiso Internacional de Conducir (PIC) a los turistas y conductores extranjeros que circulan por su territorio. Para poder alquilar o conducir un vehículo de forma legal, el PIC debe presentarse siempre junto con la licencia de conducir nacional vigente del país de origen.",
+    "detalles": [
+      "El Permiso Internacional de Conducir es obligatorio en Burkina Faso según las normativas de alquiler de vehículos globales como Europcar.",
+      "El país reconoce el modelo de PIC correspondiente a la Convención de Ginebra de 1949.",
+      "Los turistas con licencias de Uruguay, Argentina u otros países del Mercosur deben tramitar el PIC modelo 1949 antes de viajar.",
+      "El PIC no reemplaza a la licencia nacional de conducir; ambos documentos deben portarse juntos en todo momento.",
+      "La validez del PIC suele ser de un año a partir de la fecha de su emisión o hasta el vencimiento de la licencia nacional si este ocurre antes."
+    ],
     "convencionAceptada": "1949",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Europcar — International Driving Permits",
+        "url": "https://www.europcar.com/en-us/p/legal-information/international-driving-permits",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "Wisconsin DOT — Driving in Wisconsin with a foreign driver license",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "AAA — International Driving Permit",
+        "url": "https://www.aaa.com/vacation/idpapplc.html",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "American Automobile Touring Alliance — List of Contracting States",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "obligatorio",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "BI",
@@ -1586,29 +1715,43 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Burundi no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "requisito": "obligatorio",
+    "resumen": "Para conducir en Burundi se exige contar con un Permiso Internacional de Conducir junto con la licencia nacional de conducir vigente. Burundi no forma parte de las convenciones de Ginebra (1949) ni de Viena (1968), sino que se rige por el Convenio de París de 1926, por lo que algunos países emiten un modelo específico de PIC de 1926 para este destino.",
+    "detalles": [
+      "Es necesario portar el Permiso Internacional de Conducir (PIC) junto con la licencia de conducir nacional vigente durante toda la estancia.",
+      "Burundi no figura en los registros de la ONU como parte de las convenciones sobre tráfico vial de Ginebra (1949) ni de Viena (1968).",
+      "Organismos emisores de licencias (como el NDLS de Irlanda) señalan que para conducir en Burundi se requiere un PIC bajo la Convención de 1926.",
+      "Las fuerzas de seguridad realizan controles de carretera frecuentes en el país donde exigen la documentación de identidad y de conducir.",
+      "No se encontró información oficial sobre el tiempo máximo específico que un turista puede manejar con licencia extranjera antes de requerir un trámite local."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Citizens Information — International Driving Permit",
+        "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/international-driving-permit",
+        "consultado": "2026-11-11"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Government of Canada — Burundi travel advice",
+        "url": "https://travel.gc.ca/destinations/burundi",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "obligatorio",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "BT",
@@ -1621,29 +1764,48 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Bután no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "requisito": "recomendado",
+    "resumen": "Bután no es parte de las convenciones sobre tráfico vial de la ONU (Ginebra 1949 ni Viena 1968), aunque reconoce y acepta en la práctica el Permiso Internacional de Conducir (PIC). Para turistas con licencias de Uruguay, Argentina u otros países del Mercosur, se recomienda contar con el PIC modelo 1949 acompañado de la licencia nacional vigente.",
+    "detalles": [
+      "Bután no es estado parte de la Convención de Ginebra de 1949 ni de la Convención de Viena de 1968, pero las autoridades y entidades de turismo aceptan el PIC.",
+      "El formato de PIC habitualmente aceptado es el correspondiente a la Convención de Ginebra de 1949.",
+      "El Permiso Internacional de Conducir solo es válido si se presenta junto a la licencia nacional de conducir vigente del país de origen.",
+      "En Bután el sentido de circulación es por la izquierda.",
+      "Para conducir vehículos en el país se suele exigir la tramitación de un permiso local y el pago de un canon diario en moneda local (ngultrum)."
+    ],
+    "convencionAceptada": "1949",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "American Automobile Touring Alliance — List of Contracting States",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-11"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Wisconsin Department of Transportation — Driving in WI with a foreign DL",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "International Travel Permits — Permiso de conducir internacional Bután",
+        "url": "https://internationaltravelpermits.com/es/los-paises/permiso-de-conducir-internacional-butan",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "CV",
@@ -1657,23 +1819,48 @@
       "viena1968": true
     },
     "requisito": "sin-verificar",
-    "resumen": "Cabo Verde es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
-    "convencionAceptada": "1968",
+    "resumen": "No se encontró información oficial suficiente en las fuentes para determinar si Cabo Verde exige obligatoriamente el Permiso Internacional de Conducir a turistas con licencia extranjera o de países del Mercosur. Cabo Verde figura como estado contratante del Convenio de Ginebra de 1949 sobre la Circulación por Carretera. Se aconseja verificar los requisitos directamente con la empresa rentadora o representación consular antes de viajar.",
+    "detalles": [
+      "Requisito legal para turistas: Sin verificar por falta de especificación normativa en las fuentes consultadas.",
+      "Convenios internacionales: Cabo Verde aparece registrado como país adherido a la Convención de Ginebra de 1949 sobre el Tráfico Rodado.",
+      "Modelo de PIC: De acuerdo con la Convención de 1949, el Permiso Internacional de Conducir correspondiente a esta normativa tiene una validez de 1 año.",
+      "Licencias del Mercosur: No se dispone de datos oficiales sobre excepciones o reconocimiento directo para licencias de Uruguay, Argentina u otros países de la región.",
+      "Estadía máxima de conducción: No se especifica un plazo exacto para conducir con licencia extranjera en la documentación obtenida.",
+      "Recomendación práctica: Contactar a la compañía de alquiler de vehículos y a las autoridades consulares de Cabo Verde previo a la partida."
+    ],
+    "convencionAceptada": "1949",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Wisconsin DMV — Driving in Wisconsin with a foreign driver license",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "Portal Consular de Cabo Verde — FAQS",
+        "url": "https://portalconsular.mnec.gov.cv/en/perguntas-frequentes",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "International Driving Permit — Cape Verde Directory",
+        "url": "https://internationaldrivingpermit.org/country/cape-verde",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "KH",
@@ -1746,29 +1933,49 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Camerún no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "requisito": "recomendado",
+    "resumen": "Camerún no ha ratificado las Convenciones sobre la Circulación Vial de la ONU de 1949 ni de 1968, pero acepta el Permiso Internacional de Conducir (modelo 1968) como documento complementario. Se recomienda a los turistas hispanohablantes llevar el PIC junto con su licencia nacional vigente para facilitar la verificación ante las autoridades y al alquilar vehículos.",
+    "detalles": [
+      "Camerún no figura como estado contratante ratificado en los tratados sobre circulación vial de la ONU de 1949 ni de 1968, pero en la práctica reconoce el PIC.",
+      "El formato de Permiso Internacional aceptado en el país corresponde al modelo de la Convención de Viena de 1968.",
+      "El PIC no reemplaza a la licencia nacional: es obligatorio portar la licencia física original y vigente del país de origen en todo momento.",
+      "La autoridad nacional responsable del tránsito y emisión de licencias en el país es el Ministerio de Transportes (Ministère des Transports - MINT).",
+      "Los turistas no residentes no pueden tramitar un PIC dentro de Camerún, por lo que deben gestionarlo en su país de residencia antes del viaje."
+    ],
+    "convencionAceptada": "1968",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Ministère des Transports (MINT)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Ministère des Transports (MINT)",
+      "url": "https://internationaldrivingpermit.org/country/cameroon"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Cameroon Information",
+        "url": "https://internationaldrivingpermit.org/country/cameroon",
+        "consultado": "2026-11-11"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "American Automobile Touring Alliance — List of Contracting States",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "CA",
@@ -1901,29 +2108,48 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Chad no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Chad no forma parte de las convenciones sobre tráfico vial de Ginebra (1949) ni de Viena (1968). Sin embargo, entidades internacionales de automovilismo confirman que en la práctica el país reconoce el Permiso Internacional de Conducir. Por ello, se recomienda a los turistas llevar el PIC junto con su licencia nacional vigente.",
+    "detalles": [
+      "Chad no es estado contratante ni signatario de la Convención de Ginebra de 1949 ni de la Convención de Viena de 1968.",
+      "A pesar de no ser parte de los tratados de la ONU, listas oficiales de asociaciones de automovilismo (como AATA y AAA) señalan que Chad acepta el Permiso Internacional de Conducir.",
+      "Para conductores con licencia de Uruguay, Argentina u otros países del Mercosur, se exige presentar el PIC conjuntamente con la licencia de conducir nacional física vigente.",
+      "El PIC funciona como una traducción oficial multilingüe y no reemplaza la licencia nacional.",
+      "No se dispone de datos oficiales de la normativa interna de Chad referentes al límite de días permitidos para manejar como turista con licencia extranjera."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "American Automobile Touring Alliance — List of Contracting States",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-11"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Wisconsin DMV — Driving in WI with a foreign driver license",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-11"
+      },
+      {
+        "titulo": "International Driving Permit — Chad",
+        "url": "https://internationaldrivingpermit.org/country/chad",
+        "consultado": "2026-11-11"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-11",
+    "ultimaRevision": "2026-11-11",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-11",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "CL",
