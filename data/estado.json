@@ -1,19 +1,25 @@
 {
-  "ultimaEjecucion": "2026-11-11T18:28:53.392Z",
+  "ultimaEjecucion": "2026-11-13T21:06:09.487Z",
   "modelo": "gemini-3.6-flash + Tavily",
   "paisesActualizados": [
-    "BH",
-    "BJ",
-    "BY",
-    "BN",
-    "BF",
-    "BI",
-    "BT",
-    "CV",
-    "CM",
-    "TD"
+    "KM",
+    "CG",
+    "KP",
+    "CI",
+    "ER",
+    "ET",
+    "GA",
+    "GM",
+    "GH",
+    "GN"
   ],
-  "errores": [],
+  "errores": [
+    {
+      "pais": "SZ",
+      "error": "Ninguna fuente citada apareció en los resultados de búsqueda.",
+      "pasajero": false
+    }
+  ],
   "post": null,
   "cortado": false,
   "semana": {
@@ -38,10 +44,26 @@
       "BT",
       "CV",
       "CM",
-      "TD"
+      "TD",
+      "KM",
+      "CG",
+      "KP",
+      "CI",
+      "ER",
+      "ET",
+      "GA",
+      "GM",
+      "GH",
+      "GN"
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-11-13T21:06:09.487Z",
+      "paises": 10,
+      "errores": 1,
+      "post": null
+    },
     {
       "fecha": "2026-11-11T18:28:53.392Z",
       "paises": 10,

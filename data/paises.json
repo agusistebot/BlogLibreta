@@ -2468,29 +2468,52 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Comoras no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "requisito": "recomendado",
+    "resumen": "Comoras no forma parte formal de las convenciones internacionales sobre tránsito vial de Ginebra ni de Viena, por lo que el uso de licencias extranjeras depende de normativas locales. Entidades automovilísticas internacionales indican que el Permiso Internacional de Conducir es reconocido y aceptado en el país. Por ello, se recomienda a turistas hispanohablantes portar el PIC junto con su licencia nacional vigente.",
+    "detalles": [
+      "Comoras no es estado parte de la Convención de Ginebra de 1949 ni de la Convención de Viena de 1968, aunque diversos organismos internacionales de tránsito señalan que el permiso internacional es admitido en su territorio.",
+      "Para conductores con licencias de Argentina, Uruguay u otros países de la región, contar con un PIC sirve como traducción oficial estandarizada frente a controles policiales y mostradores de alquiler.",
+      "El permiso internacional debe presentarse siempre acompañado de la licencia de conducir física original y del pasaporte vigente.",
+      "Las condiciones de manejo e infraestructura vial en las islas son complejas y deficientes, por lo que los avisos consulares sugieren extremar precauciones al rentar o conducir vehículos."
+    ],
+    "convencionAceptada": "desconocido",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "American Automobile Touring Alliance — Countries Honoring International Driving Permits",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-13"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Wisconsin Department of Transportation — Driving in Wisconsin with a foreign driver license",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "Automobile & Touring Club of the UAE — IDL International Driving License",
+        "url": "https://atcuae.ae/idl-international-driving-license",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "Travel.gc.ca — Comoros travel advice",
+        "url": "https://travel.gc.ca/destinations/comoros",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "recomendado",
+        "origen": "gemini-3.8-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "CG",
@@ -2503,24 +2526,54 @@
       "ginebra1949": true,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Congo es parte de la Convención de Ginebra de 1949 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1949. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "La República del Congo es parte de la Convención de Ginebra de 1949 sobre la Circulación Vial, por lo que reconoce el Permiso Internacional de Conducir (PIC) en su versión de 1949. Se recomienda a los turistas extranjeros llevar el PIC junto con su licencia de conducir nacional vigente, ya que las guías internacionales de tránsito lo señalan como documento requerido.",
+    "detalles": [
+      "La República del Congo (Brazzaville) reconoce la Convención de Ginebra de 1949.",
+      "El formato de Permiso Internacional de Conducir (PIC) aceptado es el modelo 1949.",
+      "Organismos de transporte e internacionales (como la DVLA del Reino Unido y la AAA) clasifican al país como receptor del PIC modelo 1949.",
+      "El PIC debe presentarse siempre acompañado por la licencia de conducir nacional vigente del país de origen.",
+      "No se dispone de información en las fuentes verificadas sobre plazos específicos de estadía máxima autorizada con licencia de turista.",
+      "No se identificaron acuerdos o excepciones bilaterales particulares para licencias emitidas en países del Mercosur (como Uruguay o Argentina)."
+    ],
     "convencionAceptada": "1949",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "DVLA / PayPoint — International Driving Permit Country List",
+        "url": "https://www.paypointbusiness.com/media/2rojoigs/dvla-country-list-2026.pdf",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "AAA — International Driving Permit Application",
+        "url": "https://www.aaa.com/vacation/idpapplc.html",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "American Automobile Touring Alliance — List of Contracting States",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "Wisconsin Department of Transportation — Foreign Driver License Recognition",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "KP",
@@ -2534,28 +2587,37 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Corea del Norte no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "resumen": "En Corea del Norte los turistas extranjeros no tienen permitido conducir vehículos. El transporte dentro del país es proporcionado exclusivamente por guías turísticos o autoridades oficiales. Por este motivo, el Permiso Internacional de Conducir (PIC) no es aceptado ni permite a un visitante manejar en el territorio.",
+    "detalles": [
+      "Los extranjeros tienen prohibido conducir vehículos en Corea del Norte y la circulación está severamente restringida.",
+      "El transporte de los visitantes es gestionado únicamente por las autoridades o guías turísticos oficiales asignados.",
+      "Corea del Norte no forma parte de la Convención de Ginebra de 1949 ni de la Convención de Viena de 1968, por lo que no reconoce los PIC estandarizados.",
+      "Las licencias de conducir de Uruguay, Argentina y demás países del Mercosur no son válidas para manejar dentro del país.",
+      "Existen controles policiales frecuentes en todo el país donde las fuerzas de seguridad exigen documentación de identificación a los viajeros."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
-      },
-      {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Government of Canada — North Korea travel advice",
+        "url": "https://travel.gc.ca/destinations/north-korea",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "KR",
@@ -2628,29 +2690,58 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Costa de Marfil es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "recomendado",
+    "resumen": "Para conducir en Costa de Marfil se recomienda contar con el Permiso Internacional de Conducir (PIC) junto a la licencia nacional de conducir vigente. Organismos oficiales de transporte y asociaciones automovilísticas internacionales incluyen a Costa de Marfil entre los países que reconocen y requieren el permiso internacional bajo los convenios de la ONU.",
+    "detalles": [
+      "Costa de Marfil figura registrada en las listas de países reconocedores de las convenciones de tráfico vial de la ONU (Ginebra 1949 y Viena 1968).",
+      "La guía oficial de la DVLA del Reino Unido indica el uso del modelo de PIC de la Convención de Viena de 1968 para Costa de Marfil.",
+      "Entidades como la AAA y la AATA en Estados Unidos también incluyen a Costa de Marfil entre los países donde se valida el modelo de 1949.",
+      "Los turistas provenientes de Uruguay, Argentina y otros países del Mercosur deben llevar su licencia nacional vigente acompañada del Permiso Internacional de Conducir.",
+      "El Permiso Internacional de Conducir es solo una traducción oficial complementaria y no sustituye a la licencia nacional original."
+    ],
     "convencionAceptada": "ambas",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "PayPoint / DVLA — International Driving Permit Country List 2026",
+        "url": "https://www.paypointbusiness.com/media/2rojoigs/dvla-country-list-2026.pdf",
+        "consultado": "2026-11-13"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "ICT Administration Islamabad — International Driving Permit",
+        "url": "https://ictadministration.gov.pk/international-driving-permit",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "AAA — International Driving Permit Application",
+        "url": "https://www.aaa.com/vacation/idpapplc.html",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "American Automobile Touring Alliance — List of Contracting States",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "Bangladesh Automobile Association — FAQ International Driving Permit",
+        "url": "https://aabangladesh.com/wp-content/uploads/2025/03/FAQ-International-Driving-Permit-IDP.pdf",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "CR",
@@ -3211,28 +3302,51 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Eritrea no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "resumen": "No se dispone de información oficial verificada sobre las exigencias de manejo ni sobre la aceptación del Permiso Internacional de Conducir en Eritrea. Tampoco consta que el país sea parte de las convenciones de tránsito de la ONU de 1949 o 1968. Además, las autoridades locales exigen a los extranjeros permisos especiales para desplazarse fuera de la capital.",
+    "detalles": [
+      "Eritrea no figura como estado parte de la Convención sobre la Circulación por Carretera de Ginebra (1949) ni de la de Viena (1968).",
+      "No existe información oficial clara sobre el reconocimiento de licencias de conducir de Uruguay, Argentina u otros países del Mercosur.",
+      "Para viajar por carretera fuera de la región de Asmara, todos los ciudadanos extranjeros deben solicitar previamente un permiso de viaje otorgado por el gobierno local.",
+      "Diversos organismos internacionales advierten sobre severas restricciones a la movilidad, deficiencias en la infraestructura y zonas fronterizas de alto riesgo."
+    ],
+    "convencionAceptada": "desconocido",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Government of Canada — Eritrea travel advice",
+        "url": "https://travel.gc.ca/destinations/eritrea",
+        "consultado": "2026-11-13"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Australian Government Smartraveller — Eritrea Travel Advice",
+        "url": "https://www.smartraveller.gov.au/destinations/africa/eritrea",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "GOV.UK — Eritrea foreign travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/eritrea",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "Department of Foreign Affairs Ireland — Eritrea Travel Advice",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/eritrea",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "SK",
@@ -3585,9 +3699,11 @@
       }
     ],
     "actualizado": null,
-    "ultimaRevision": null,
+    "ultimaRevision": "2026-11-13",
     "verificado": false,
-    "historial": []
+    "historial": [],
+    "ultimoError": "Ninguna fuente citada apareció en los resultados de búsqueda.",
+    "fallos": 1
   },
   {
     "iso2": "ET",
@@ -3600,24 +3716,59 @@
       "ginebra1949": false,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Etiopía es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
-    "convencionAceptada": "1968",
+    "requisito": "depende",
+    "resumen": "Las exigencias para conducir en Etiopía varían según la fuente consultada. Mientras que alquiladoras como Europcar sostienen que el Permiso Internacional de Conducir es obligatorio, portales gubernamentales e informativos señalan que la licencia extranjera acompañada del PIC no basta para circular legalmente, requiriéndose la obtención de una licencia de conducir local etíope.",
+    "detalles": [
+      "Fuentes de información gubernamentales como Países Bajos e informativas como Remitly señalan que no es legal conducir en Etiopía utilizando únicamente una licencia extranjera ni un PIC.",
+      "Los conductores extranjeros deben obtener una licencia de conducir local etíope para circular o alquilar un vehículo, incluso durante estancias temporales.",
+      "Compañías de alquiler como Europcar incluyen a Etiopía en la lista de países donde exigen el Permiso Internacional de Conducir obligatoriamente.",
+      "Etiopía ratificó la Convención de Viena sobre el Tráfico Vial de 1968 y reconoce los formatos de PIC de 1949 y 1968.",
+      "Las licencias emitidas en países del Mercosur (como Argentina o Uruguay) no cuentan con regímenes especiales de exención en el país."
+    ],
+    "convencionAceptada": "ambas",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Federal Transport Authority (Ministry of Transport and Logistics)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Federal Transport Authority (Ministry of Transport and Logistics)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Europcar — International Driving Permits",
+        "url": "https://www.europcar.com/en-us/p/legal-information/international-driving-permits",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "International Driving Permit Directory — Ethiopia",
+        "url": "https://internationaldrivingpermit.org/country/ethiopia",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "Remitly — Can Foreigners Drive in Ethiopia?",
+        "url": "https://www.remitly.com/blog/travel/can-foreigners-drive-in-ethiopia",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "Netherlands Worldwide — Can I use my Dutch driving licence abroad?",
+        "url": "https://www.netherlandsworldwide.nl/driving-licence-abroad/validity",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "depende",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "PH",
@@ -3857,29 +4008,54 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Gabón no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "requisito": "recomendado",
+    "resumen": "Gabón no ha ratificado formalmente las convenciones de tránsito de la ONU de 1949 ni de 1968. Sin embargo, las autoridades locales y los registros internacionales reconocen en la práctica los Permisos Internacionales de Conducir (PIC) elaborados bajo ambos formatos. Se recomienda a los turistas viajar con el PIC junto a la licencia nacional vigente.",
+    "detalles": [
+      "Gabón no figura como estado parte ratificado en el registro de tratados de la ONU para las Convenciones sobre la Circulación Vial de Ginebra (1949) ni Viena (1968).",
+      "A pesar de no haber ratificado los convenios internacionales, el país acepta en los controles de tránsito los modelos de PIC de 1949 y 1968.",
+      "El Permiso Internacional de Conducir no reemplaza a la licencia nacional; debe presentarse siempre acompañado por la licencia original vigente (de Uruguay, Argentina u otro país emisor).",
+      "La entidad gubernamental a cargo del tránsito terrestre en el país es la Direction générale des Transports terrestres (DGTT).",
+      "Es habitual encontrar controles y retenes de seguridad policial en las rutas gabonesas, por lo que se exige portar la documentación del vehículo e identificación personal regularizada."
+    ],
+    "convencionAceptada": "ambas",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Direction générale des Transports terrestres (DGTT)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Direction générale des Transports terrestres (DGTT)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Gabon Country Info",
+        "url": "https://internationaldrivingpermit.org/country/gabon",
+        "consultado": "2026-11-13"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Government of Canada — Gabon travel advice",
+        "url": "https://travel.gc.ca/destinations/gabon",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "AAA — International Driving Permit Application & Recognised Countries",
+        "url": "https://www.aaa.com/vacation/idpapplc.html",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "GM",
@@ -3893,28 +4069,48 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Gambia no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "resumen": "No se cuenta con fuentes oficiales del Gobierno de Gambia que precisen la normativa de tránsito para turistas con licencias de Uruguay, Argentina u otros países del Mercosur. Aunque entidades automovilísticas señalan que el Permiso Internacional de Conducir es aceptado en la práctica, Gambia no es Estado parte de las convenciones de la ONU de 1949 ni de 1968.",
+    "detalles": [
+      "Gambia no figura como país contratante ni en la Convención de Ginebra de 1949 ni en la Convención de Viena de 1968 sobre la circulación vial.",
+      "Listados de asociaciones automovilísticas como AATA indican que el Permiso Internacional de Conducir (PIC) es reconocido o aceptado en la práctica en Gambia a pesar de no estar adherido a la convención de 1949.",
+      "Las recomendaciones de viaje del gobierno británico (GOV.UK) advierten sobre la existencia de controles policiales y de seguridad frecuentes en las carreteras principales y accesos a Banjul, donde se realizan inspecciones de vehículos.",
+      "No se encontró información oficial sobre un límite máximo de estadía fijado para manejar con licencia extranjera o PIC.",
+      "Se aconseja a los viajeros consultar directamente con la embajada o consulado gambiano más cercano antes del viaje para verificar los requisitos vigentes para licencias sudamericanas."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "sin-verificar",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "sin-verificar",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "American Automobile Touring Alliance — List of Contracting States",
+        "url": "https://www.aataidp.com/countries",
+        "consultado": "2026-11-13"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "GOV.UK — Foreign travel advice: The Gambia (Safety and security)",
+        "url": "https://www.gov.uk/foreign-travel-advice/the-gambia/safety-and-security",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "GE",
@@ -3989,24 +4185,49 @@
       "ginebra1949": true,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Ghana es parte de la Convención de Ginebra de 1949 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1949. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
-    "convencionAceptada": "1949",
+    "requisito": "recomendado",
+    "resumen": "Ghana reconoce los Permisos Internacionales de Conducir vigentes basados en las convenciones de 1949 y 1968. Para turistas con licencias extranjeras (incluyendo las de Uruguay y Argentina), se recomienda llevar el PIC junto con la licencia de conducir nacional original para facilitar alquileres de vehículos y controles viales.",
+    "detalles": [
+      "Ghana ratificó la Convención sobre Circulación Vial de Ginebra de 1949 y es signataria de la Convención de Viena de 1968.",
+      "En el país se aceptan los formatos de Permiso Internacional de Conducir de 1949 y de 1968.",
+      "El Permiso Internacional de Conducir no reemplaza a la licencia nacional; debe portarse siempre junto con la licencia física original y vigente.",
+      "Para los residentes en Ghana, el organismo oficial encargado de emitir el Permiso Internacional de Conducir es la Driver and Vehicle Licensing Authority (DVLA).",
+      "No se especifica en las fuentes un plazo máximo límite determinado para conducir únicamente como turista con licencia extranjera."
+    ],
+    "convencionAceptada": "ambas",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Driver and Vehicle Licensing Authority (DVLA)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "Driver and Vehicle Licensing Authority (DVLA)",
+      "url": "https://internationaldrivingpermit.org/country/ghana"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Ghana",
+        "url": "https://internationaldrivingpermit.org/country/ghana",
+        "consultado": "2026-11-13"
+      },
+      {
+        "titulo": "Wikipedia — International Driving Permit",
+        "url": "https://en.wikipedia.org/wiki/International_Driving_Permit",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "GD",
@@ -4198,28 +4419,41 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Guinea no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "resumen": "Guinea no figura entre los estados firmantes o contratantes de las Convenciones sobre Circulación Vial de Ginebra (1949) ni de Viena (1968) en los registros internacionales disponibles. No se cuenta con fuentes oficiales que confirmen de manera verificable la exigencia ni la validez del Permiso Internacional de Conducir para turistas extranjeros.",
+    "detalles": [
+      "Guinea no aparece en los listados oficiales de países adheridos a la Convención de Ginebra de 1949 ni a la Convención de Viena de 1968.",
+      "No existen datos oficializados en las fuentes gubernamentales disponibles sobre los requisitos exigidos a conductores con licencias de Uruguay, Argentina o del Mercosur.",
+      "No se ha encontrado registro oficial sobre la existencia de un organismo local emisor del Permiso Internacional de Conducir ni sobre la autoridad de tránsito competente en fuentes consultadas.",
+      "Se aconseja a los turistas contactar formalmente a la embajada o representación consular de Guinea antes de viajar si planean conducir en el territorio nacional."
+    ],
     "convencionAceptada": "ninguna",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Wisconsin Department of Transportation — Driving in Wisconsin with a foreign driver license",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+        "consultado": "2026-11-13"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "AAA — Geographical Areas Which Honor International Driving Permits",
+        "url": "https://www.aaa.com/vacation/idpapplc.html",
+        "consultado": "2026-11-13"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-13",
+    "ultimaRevision": "2026-11-13",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-13",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "GQ",
