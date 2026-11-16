@@ -3680,30 +3680,36 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Esuatini no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "resumen": "Esuatini no ha ratificado las convenciones de tránsito de la ONU de 1949 ni de 1968, por lo que la regulación para conducir depende de su legislación nacional. No obstante, en la práctica el país acepta los Permisos Internacionales de Conducir basados en los modelos de 1949 y 1968. Para turistas con licencias en español (como de Argentina o Uruguay), se recomienda llevar el PIC junto con la licencia nacional para evitar inconvenientes.",
+    "detalles": [
+      "Esuatini no figura como estado firmante ni ratificante de la Convención de Ginebra (1949) ni de la Convención de Viena (1968).",
+      "A pesar de no haber ratificado las convenciones, las autoridades locales aceptan los permisos internacionales emitidos bajo los formatos de 1949 y 1968.",
+      "Para conductores con licencias que no estén escritas en inglés (como las licencias del Mercosur), el PIC sirve como traducción oficial exigible en controles viales o por compañías de alquiler de vehículos.",
+      "En Esuatini no se emiten permisos internacionales de conducir a personas sin residencia legal o sin licencia local previa."
+    ],
+    "convencionAceptada": "ambas",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
-      },
-      {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Eswatini",
+        "url": "https://internationaldrivingpermit.org/country/eswatini",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": "2026-11-13",
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
     "verificado": false,
-    "historial": [],
-    "ultimoError": "Ninguna fuente citada apareció en los resultados de búsqueda.",
-    "fallos": 1
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "ET",
@@ -4537,28 +4543,37 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Guinea-Bisáu no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
+    "resumen": "Guinea-Bisáu no es parte de las convenciones sobre tráfico vial de la ONU (1949 ni 1968). Según fuentes gubernamentales internacionales, no basta con presentar la licencia extranjera o el PIC para conducir libremente; se exige tramitar un permiso o licencia de conducir local a la llegada presentando la licencia de origen y el Permiso Internacional.",
+    "detalles": [
+      "Guinea-Bisáu no figura entre los estados parte de la Convención de Ginebra de 1949 ni de la Convención de Viena de 1968.",
+      "De acuerdo con información oficial de viajes del Gobierno de los Países Bajos, no se permite conducir únicamente con la licencia nacional de origen acompañada del PIC.",
+      "Para circular en el país, las autoridades locales exigen obtener un permiso o licencia de conducir local temporal.",
+      "Dicho permiso local suele otorgarse tras presentar la licencia de conducir nacional vigente y el Permiso Internacional de Conducir (PIC).",
+      "Los conductores con licencias de Uruguay, Argentina u otros países del Mercosur deben cumplir con el requisito de solicitar la licencia local temporal a su llegada."
+    ],
     "convencionAceptada": "ninguna",
-    "estadiaMaxima": null,
+    "estadiaMaxima": "Duración de la visita (según la validez del permiso local emitido)",
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
-      },
-      {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "NetherlandsWorldwide — Can I use my Dutch driving licence abroad?",
+        "url": "https://www.netherlandsworldwide.nl/driving-licence-abroad/validity",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "GY",
@@ -4994,24 +5009,49 @@
       "ginebra1949": false,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Irak es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
-    "convencionAceptada": "1968",
+    "requisito": "depende",
+    "resumen": "El requisito del Permiso Internacional de Conducir (PIC) en Irak depende de la normativa aplicable según el país de origen del conductor y el modelo de convenio expedido. El directorio internacional de movilidad indica que Irak acepta los modelos de 1949 y 1968, mientras que autoridades de algunos países señalan que exige el modelo de 1926.",
+    "detalles": [
+      "Irak ratificó la Convención de Viena de 1968 y la Convención de París de 1926.",
+      "Según portales internacionales de permisos de conducir, Irak reconoce los formatos de PIC basados en los convenios de 1949 y 1968.",
+      "No obstante, autoridades de emisión de licencias de ciertos países (como Irlanda) señalan que para conducir en Irak se requiere un PIC bajo la Convención de 1926.",
+      "El Permiso Internacional de Conducir no reemplaza a la licencia nacional, por lo que siempre debe presentarse junto con la licencia de conducir física original y vigente.",
+      "No se dispone de datos oficiales verificados sobre plazos máximos de estadía para turistas manejando con licencias de Uruguay, Argentina u otros países del Mercosur."
+    ],
+    "convencionAceptada": "ambas",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "General Directorate of Traffic (Ministry of Interior)",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "General Directorate of Traffic (Ministry of Interior)",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Iraq",
+        "url": "https://internationaldrivingpermit.org/country/iraq",
+        "consultado": "2026-11-16"
+      },
+      {
+        "titulo": "Citizens Information — International Driving Permit",
+        "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/international-driving-permit",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "depende",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "IR",
@@ -5025,23 +5065,44 @@
       "viena1968": true
     },
     "requisito": "sin-verificar",
-    "resumen": "Irán es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
-    "convencionAceptada": "1968",
+    "resumen": "No se dispone de fuentes oficiales suficientes en los resultados para determinar si Irán exige de forma obligatoria el Permiso Internacional de Conducir a turistas de Uruguay, Argentina u otros países. No obstante, el país reconoce las Convenciones sobre Circulación Vial de las Naciones Unidas y acepta los modelos de PIC de 1949 y 1968.",
+    "detalles": [
+      "Irán acepta los Permisos Internacionales de Conducir confeccionados según los modelos de las convenciones de 1949 y 1968.",
+      "El organismo emisor autorizado del PIC dentro de la República Islámica de Irán es el Touring & Automobile Club of the Islamic Republic of Iran (TACI).",
+      "Los conductores extranjeros no residentes no pueden tramitar un PIC dentro de Irán, por lo que debe ser emitido en el país de residencia previo al viaje.",
+      "No se encontró información específica en los resultados respecto al plazo máximo de estadía permitido para conducir como turista ni sobre exigencias particulares para licencias del Mercosur."
+    ],
+    "convencionAceptada": "ambas",
     "estadiaMaxima": null,
     "autoridadTransito": null,
-    "emisorPIC": null,
+    "emisorPIC": {
+      "nombre": "Touring & Automobile Club of the Islamic Republic of Iran (TACI)",
+      "url": "https://internationaldrivingpermit.org/country/iran-islamic-republic-of"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Iran (Islamic Republic of)",
+        "url": "https://internationaldrivingpermit.org/country/iran-islamic-republic-of",
+        "consultado": "2026-11-16"
+      },
+      {
+        "titulo": "ASOCIACIÓN NACIONAL AUTOMOVILÍSTICA ANA AC — Permiso Internacional Para Conducir en el Extranjero",
+        "url": "https://anaautomovilclubblog.wordpress.com/tag/permiso-internacional-para-conducir-en-el-extranjero",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "IE",
@@ -5177,28 +5238,37 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Islas Marshall no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "resumen": "No se encontraron normativas oficiales ni leyes locales de tránsito que aclaren los requisitos de conducción para turistas en las Islas Marshall. El país no ha ratificado los tratados de movilidad vial de la ONU, aunque portales especializados señalan que se aceptan los formatos de Permiso Internacional de Conducir de 1949 y 1968.",
+    "detalles": [
+      "Las Islas Marshall no han ratificado la Convención de Ginebra de 1949 ni la Convención de Viena de 1968.",
+      "A pesar de no haber ratificado los convenios, se indica que el país acepta los permisos internacionales de conducir (PIC) basados en los modelos de 1949 y 1968.",
+      "No es posible tramitar ni solicitar un PIC dentro del territorio de las Islas Marshall sin poseer una residencia o licencia local.",
+      "No se dispone de información oficial sobre el límite de tiempo que un turista puede conducir con su registro de origen o PIC.",
+      "Dado el vacío de fuentes normativas oficiales, se recomienda a los viajeros con licencias de Uruguay, Argentina y la región verificar las exigencias directamente con las rentadoras o representaciones diplomáticas antes del viaje."
+    ],
+    "convencionAceptada": "ambas",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
-      },
-      {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit Directory — Marshall Islands",
+        "url": "https://internationaldrivingpermit.org/country/marshall-islands",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "SB",
@@ -5212,28 +5282,47 @@
       "viena1968": false
     },
     "requisito": "sin-verificar",
-    "resumen": "Islas Salomón no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "resumen": "No se dispone de información oficial verificada sobre si las Islas Salomón exigen un Permiso Internacional de Conducir a turistas con licencia extranjera, como las de Argentina o Uruguay. Las alertas de viaje oficiales destacan precauciones de seguridad al conducir, pero no detallan la normativa de licencias. Se recomienda consultar con la representación consular antes de viajar.",
+    "detalles": [
+      "No se encontraron fuentes oficiales o normativas locales que aclaren si los turistas pueden conducir únicamente con su licencia nacional o si requieren PIC.",
+      "El país no figura en la lista de estados parte de la Convención sobre la Circulación por Carretera de Ginebra de 1949 según los registros revisados.",
+      "Recomendaciones oficiales de viaje de Australia, Canadá y Reino Unido sugieren circular con seguro de puertas y ventanas cerradas en Honiara debido a riesgos de seguridad y asaltos a vehículos.",
+      "No se identificaron datos verificables sobre el tiempo máximo de estancia permitido para conducir con permiso extranjero.",
+      "Se aconseja a los conductores provenientes de Argentina, Uruguay y otros países del Mercosur contactar a las autoridades consulares para confirmar los requisitos vigentes antes de alquilar o conducir un vehículo."
+    ],
+    "convencionAceptada": "desconocido",
     "estadiaMaxima": null,
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Smartraveller — Solomon Islands Travel Advice",
+        "url": "https://www.smartraveller.gov.au/destinations/pacific/solomon-islands",
+        "consultado": "2026-11-16"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "GOV.UK — Solomon Islands travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/solomon-islands/safety-and-security",
+        "consultado": "2026-11-16"
+      },
+      {
+        "titulo": "Government of Canada — Solomon Islands travel advice",
+        "url": "https://travel.gc.ca/destinations/solomon-islands",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
     "verificado": false,
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "sin-verificar",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "IL",
@@ -5580,24 +5669,49 @@
       "ginebra1949": false,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Kazajistán es parte de la Convención de Viena de 1968 de la ONU, por lo que reconoce el Permiso Internacional de Conducir modelo 1968. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
+    "requisito": "depende",
+    "resumen": "Kazajistán es parte de la Convención de Viena de 1968 sobre el Tráfico Vial y reconoce el Permiso Internacional de Conducir (PIC) modelo 1968. Para turistas con licencias extranjeras, la exigencia del PIC depende de si la licencia nacional cumple estrictamente los formatos del convenio o si requiere traducción oficial.",
+    "detalles": [
+      "Kazajistán está adherido a la Convención de Viena de 1968 sobre el Tráfico Vial.",
+      "El modelo de Permiso Internacional de Conducir reconocido oficialmente es el de 1968.",
+      "Para los conductores con licencias de Uruguay, Argentina u otros países del Mercosur, se exige o recomienda llevar el PIC de 1968 para facilitar la interpretación ante las autoridades y rentadoras de vehículos.",
+      "El Permiso Internacional de Conducir no es un documento independiente; únicamente es válido al presentarse junto con la licencia nacional original en vigor.",
+      "Las empresas de alquiler de autos pueden requerir el PIC como condición obligatoria para la entrega del vehículo."
+    ],
     "convencionAceptada": "1968",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "sin-verificar",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "sin-verificar",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "FIA/AIT International Driving Permit Directory — Kazakhstan",
+        "url": "https://internationaldrivingpermit.org/country/kazakhstan",
+        "consultado": "2026-11-16"
+      },
+      {
+        "titulo": "Wikipedia — International Driving Permit",
+        "url": "https://en.wikipedia.org/wiki/International_Driving_Permit",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "depende",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "KE",
@@ -5675,29 +5789,50 @@
       "ginebra1949": true,
       "viena1968": true
     },
-    "requisito": "sin-verificar",
-    "resumen": "Kirguistán es parte de las convenciones de Ginebra (1949) y de Viena (1968) de la ONU, por lo que reconoce el Permiso Internacional de Conducir de ambos modelos. Estamos verificando en fuentes oficiales si lo exige a turistas.",
-    "detalles": [],
-    "convencionAceptada": "ambas",
-    "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "requisito": "recomendado",
+    "resumen": "Kirguistán ratificó la Convención de Viena de 1968 y reconoce el Permiso Internacional de Conducir (PIC) correspondiente a este modelo. Se recomienda llevar el PIC de 1968 junto con la licencia nacional original, ya que la policía local y las empresas de alquiler pueden exigirlo o requerir una traducción notariada al ruso.",
+    "detalles": [
+      "Kirguistán ratificó el Convenio de Viena sobre la Circulación Vial de 1968.",
+      "El modelo de Permiso Internacional de Conducir (PIC) aceptado en el país es el de 1968.",
+      "El PIC debe acompañarse siempre de la licencia de conducir nacional física vigente del país de origen.",
+      "Para licencias del Mercosur (Argentina, Uruguay, etc.), portar el PIC de 1968 evita barreras idiomáticas en controles de tránsito y agiliza los trámites de alquiler.",
+      "En los controles policiales, si no se presenta el PIC, se suele requerir una traducción al ruso legalizada o notariada de la licencia de conducir.",
+      "La estadía turística habitual sin visa permite permanecer hasta 30 días continuos en el país."
+    ],
+    "convencionAceptada": "1968",
+    "estadiaMaxima": "30 días",
+    "autoridadTransito": {
+      "nombre": "Agencia Estatal de Registro de Vehículos y Conductores de Kirguistán",
+      "url": null
+    },
+    "emisorPIC": {
+      "nombre": "State Agency for Registration of Vehicles and Drivers",
+      "url": "https://internationaldrivingpermit.org/country/kyrgyzstan"
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driving Permit — Kyrgyzstan",
+        "url": "https://internationaldrivingpermit.org/country/kyrgyzstan",
+        "consultado": "2026-11-16"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "GOV.UK — Kyrgyzstan travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/kyrgyzstan/safety-and-security",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "KI",
@@ -5710,29 +5845,43 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Kiribati no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
-    "estadiaMaxima": null,
+    "requisito": "recomendado",
+    "resumen": "Los turistas pueden conducir en Kiribati utilizando su licencia nacional válida durante un plazo máximo de dos semanas. Aunque el Permiso Internacional de Conducir (PIC) se aconseja principalmente para licencias que no estén escritas en alfabeto latino, su portación es ampliamente recomendada para evitar inconvenientes en empresas de alquiler de vehículos y controles policiales.",
+    "detalles": [
+      "Los visitantes extranjeros pueden manejar con su licencia nacional vigente durante un plazo máximo de hasta 2 semanas; superado ese lapso se requiere una licencia local de Kiribati.",
+      "Se recomienda llevar el PIC junto con la licencia nacional original y el pasaporte para facilitar la verificación del documento.",
+      "Kiribati reconoce y acepta los formatos de PIC derivados tanto de la Convención de Ginebra de 1949 como de la Convención de Viena de 1968.",
+      "En Kiribati se conduce por el lado izquierdo de la carretera y los límites de velocidad son reducidos (máximo 60 km/h en vías abiertas).",
+      "La edad mínima estándar para alquilar un vehículo es de 18 años, aunque suele aplicarse una tasa adicional para menores de 25 años."
+    ],
+    "convencionAceptada": "ambas",
+    "estadiaMaxima": "2 semanas",
     "autoridadTransito": null,
     "emisorPIC": null,
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "International Driver Licence — IDP for Kiribati (2026)",
+        "url": "https://www.internationaldriverlicence.org/countries/international-driving-permit-kiribati",
+        "consultado": "2026-11-16"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Government of Canada — Kiribati travel advice",
+        "url": "https://travel.gc.ca/destinations/kiribati",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "XK",
@@ -5745,29 +5894,54 @@
       "ginebra1949": false,
       "viena1968": false
     },
-    "requisito": "sin-verificar",
-    "resumen": "Kosovo no figura como parte de las convenciones de Ginebra (1949) ni de Viena (1968) en el registro de tratados de la ONU, así que las reglas para conductores extranjeros dependen de su legislación interna. Estamos verificando en fuentes oficiales qué documentación exige.",
-    "detalles": [],
-    "convencionAceptada": "ninguna",
+    "requisito": "recomendado",
+    "resumen": "Kosovo no figura como estado parte en el registro de tratados de las convenciones de la ONU, aunque su ley nacional de tránsito adopta el formato de la Convención de Viena de 1968. Para turistas con licencia uruguaya, argentina o del Mercosur, se recomienda portar el Permiso Internacional junto a la licencia nacional para evitar inconvenientes en controles policiales, fronteras o agencias de alquiler.",
+    "detalles": [
+      "La Ley N° 05/L-064 sobre Licencias de Conducir de Kosovo contempla el Permiso Internacional basado en el formato de la Convención de Viena de 1968.",
+      "Aunque Kosovo no sea parte en los registros de tratados de la ONU, en controles viales y fronterizos se suele exigir o sugerir el PIC acompañado de la licencia nacional vigente.",
+      "Para alquilar un vehículo o circular legalmente, la licencia extranjera debe presentarse siempre junto con el documento nacional original.",
+      "Los límites de velocidad generales en Kosovo son de 50 km/h en zonas urbanas, 80 km/h fuera de poblado y 130 km/h en autopistas.",
+      "Es obligatorio contar con equipamiento de seguridad básico en el vehículo, como triángulo de señalización de avería."
+    ],
+    "convencionAceptada": "1968",
     "estadiaMaxima": null,
-    "autoridadTransito": null,
-    "emisorPIC": null,
+    "autoridadTransito": {
+      "nombre": "Ministria e Infrastrukturës (Ministry of Infrastructure)",
+      "url": "https://www.mit-ks.net"
+    },
+    "emisorPIC": {
+      "nombre": "sin-verificar",
+      "url": null
+    },
     "fuentes": [
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación por Carretera (Ginebra, 1949)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsV.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11&Temp=mtdsg5&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "Assembly of the Republic of Kosovo — Law No. 05/L-064 on Driving Licence",
+        "url": "https://www.mit-ks.net/repository/docs/2016_06_15_080530_LAW_NO_05_L-064_ON_DRIVING_LICENCE.pdf",
+        "consultado": "2026-11-16"
       },
       {
-        "titulo": "Colección de Tratados de la ONU — Estado de la Convención sobre la Circulación Vial (Viena, 1968)",
-        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
-        "consultado": "2025-03-02"
+        "titulo": "RAC Drive — Driving in Kosovo",
+        "url": "https://www.rac.co.uk/drive/travel/country/kosovo",
+        "consultado": "2026-11-16"
+      },
+      {
+        "titulo": "Facebook — Travel to the Balkans Group",
+        "url": "https://www.facebook.com/groups/150432468460529/posts/2498015253702227",
+        "consultado": "2026-11-16"
       }
     ],
-    "actualizado": null,
-    "ultimaRevision": null,
-    "verificado": false,
-    "historial": []
+    "actualizado": "2026-11-16",
+    "ultimaRevision": "2026-11-16",
+    "verificado": true,
+    "historial": [
+      {
+        "fecha": "2026-11-16",
+        "requisito": "recomendado",
+        "origen": "gemini-3.6-flash + Tavily"
+      }
+    ],
+    "ultimoError": null,
+    "fallos": 0
   },
   {
     "iso2": "KW",
