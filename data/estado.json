@@ -1,37 +1,49 @@
 {
-  "ultimaEjecucion": "2026-11-16T20:34:42.212Z",
+  "ultimaEjecucion": "2026-11-23T22:06:05.896Z",
   "modelo": "gemini-3.5-flash-lite + Tavily",
   "paisesActualizados": [
-    "SZ",
-    "GW",
-    "IQ",
-    "IR",
-    "MH",
-    "SB",
-    "KZ",
-    "KG",
-    "KI",
-    "XK"
+    "KW",
+    "LS",
+    "LR",
+    "LY",
+    "MW",
+    "MR",
+    "FM",
+    "MD",
+    "MM",
+    "NR"
   ],
-  "errores": [],
-  "post": "ring-road-en-auto-guia-para-recorrer-islandia",
+  "errores": [
+    {
+      "pais": "ML",
+      "error": "Todos los modelos de Gemini fallaron. Último error: Gemini 503 (gemini-3.6-flash): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+      "pasajero": true
+    }
+  ],
+  "post": "pacific-coast-highway-en-auto-de-san-francisco-a-los-angeles",
   "cortado": false,
   "semana": {
-    "id": "2026-W47",
+    "id": "2026-W48",
     "paises": [
-      "SZ",
-      "GW",
-      "IQ",
-      "IR",
-      "MH",
-      "SB",
-      "KZ",
-      "KG",
-      "KI",
-      "XK"
+      "KW",
+      "LS",
+      "LR",
+      "LY",
+      "MW",
+      "MR",
+      "FM",
+      "MD",
+      "MM",
+      "NR"
     ]
   },
   "ejecuciones": [
+    {
+      "fecha": "2026-11-23T22:06:05.896Z",
+      "paises": 10,
+      "errores": 1,
+      "post": "pacific-coast-highway-en-auto-de-san-francisco-a-los-angeles"
+    },
     {
       "fecha": "2026-11-16T20:34:42.212Z",
       "paises": 10,
